@@ -1,0 +1,1255 @@
+paper_name,paper_authors,source_name,keywords,pmc_technique,pmc_criteria,vms_technique,vms_criteria,vmp_technique,vmp_criteria,experiment_type,experiment_platform,scenario_pms,scenario_vms,scenario_dataset,metrics,vms_amount,contribution,reference_number
+A prediction-based and power-aware virtual machine allocation algorithm in three-tier cloud data centers,Mehran Tarahomi;Mohammad Izadi,International Journal of Communication Systems,Cloud computing; dynamic consolidation; power efficiency; three-tier cloud data centers; virtual machine allocation; virtualization,Static Threshold + Prediction Model (LR + WMA),CPU,Minimum Migration Time (MMT) + Maximum Correlation (MC) + Maximum Requested Resources (MRR) + Minimum Downtime Migration (MDM),"CPU, RAM, Bandwidth",Heuristic (HPNBFD) + Prediction Model (EPA),"Power Consumption, Future Module Load, Future Rack Load",Simulation,CloudSim,"{
+""Number of PMs"": [960],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1052, 898, 1061, 1561, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [2500, 2000, 1000, 500],
+""Amount of RAM (in MB)"": [870, 1740, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of Active PMs, Number of VM Migrations, SLA Violation % (SLAV), Number of PM Shutdowns, Prediction Accuracy",VMs are selected individually,VMP,77
+DTFA: A Dynamic Threshold-based Fuzzy Approach for Power-efficient VM Consolidation,Deafallah Alsadie; Eidah Alzahrani; Nasrin Sohrabi; Zahir Tari; Albert Zomaya,2018 IEEE 17th International Symposium on Network Computing and Applications (NCA),Cloud computing; energy efficiency; virtualization; dynamic VM consolidation; fuzzy inference system,Dynamic Threshold + Prediction Model (ARIMA),CPU,Not Available,Not Available,Not Available,Not Available,Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1160, 2660],
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1049, 1495, 1065],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [2500, 2000, 1000, 500],
+""Amount of RAM (in MB)"": [150, 3750, 1700, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, SLA Violation % (SLAV), SLA Violation Time per Active Host (SLATAH), Performance Degradation due to Migration (PDM), Energy-SLA Violation (ESV)",Not Available,PMC,1
+Virtual machine migration algorithm for energy efficiency optimization in cloud computing,Zhou Zhou; Junyang Yu; Fangmin Li; Fei Yang,Concurrency and Computation: Practice and Experience,Cloud computing; energy consumption management; VM migration; VM selection,Static Threshold + Prediction Model (AR),CPU,Utilization Rate (UR),"CPU, RAM",Random,"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [1000],
+""Number of PM Types"": 3,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [1000, 2000, 3000],
+""Amount of RAM (in GB)"": [1, 2, 4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [300],
+""Number of VM Types"": 3,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [100, 300, 500],
+""Amount of RAM (in MB)"": [128, 256, 512],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Not available,"Energy Consumption, Prediction Accuracy, SLA Violation % (SLAV)",VMs are selected individually,PMC + VMS + VMP,89
+Linear and Logistic Regression Based Monitoring for Resource Management in Cloud Networks,Mustafa Daraghmeh; Suhib Melhem; Anjali Agarwal; Nishith Goel; Marzia Zaman, 2018 IEEE 6th International Conference on Future Internet of Things and Cloud (FiCloud),Host detection algorithms; VM consolidation; Resource management; Energy efficiency; Cloud Computing,Static Threshold + Prediction Model (LinLogR),CPU,Maximum Correlation (MC) + Minimum Migration Time (MMT) + Minimum Utilization (MU) + Random Selection (RS),"CPU, RAM, Bandwidth",Heuristic (PABFD),Power Consumption,Simulation,CloudSim,"{
+""Number of PMs"": [50],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [50],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [633, 1700, 3750, 850],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,"Energy Consumption, Number of SLA Violations, Number of VM Migrations, Number of PM Shutdowns, Energy-SLA Violation (ESV)",VMs are selected individually,PMC,24
+Energy-Aware Virtual Machine Consolidation Algorithm Based on Ant Colony System,Azra Aryania; Hadi Aghdasi; Leyli Khanli,Journal of Grid Computing,Virtual machine consolidation; Virtual machine migration; Ant colony system; Energy consumption; Cloud computing,Not Available,Not Available,Not Available,Not Available,Metaheuristic (ACS),"CPU, RAM",Simulation,Not available,"{
+""Number of PMs"": [200],
+""Number of PM Types"": 1,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [200],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,"Energy Consumption, Number of VM Migrations, Number of Sleeping PMs, Migration Energy Consumption, SLA Violation % (SLAV)",Not Available,VMP,7
+Resource scheduling method based on bayes for cloud computing,"Juan Wang, Xiuyan Sun, Wenmin Song, Linlin Tang",Journal of Information Hiding and Multimedia Signal Processing,Cloud Computing; Resource Scheduling; Bayes theory; Energy Efficiency; CloudSim,Static Threshold,CPU,Maximum Correlation (MC) + Bayesian Migration Heuristic (BMH),CPU,Heuristic (UPCBFD),"CPU, Power Consumption, RAM",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, SLA Violation % (SLAV)",VMs are selected individually,VMS + VMP,82
+Host Overloading Detection Based on EWMA Algorithm in Cloud Computing Environment,Jen-Hsiang Chen; Shin-Li Lu,2018 IEEE 15th International Conference on e-Business Engineering (ICEBE),Exponentially Weighted Moving Average; Service Level Agreement; VM migration,Prediction Model (EWMA),CPU,Not Available,Not Available,Not Available,Not Available,Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": 5,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500, 3250],
+""Amount of RAM (in MB)"": [633, 1700, 3750, 850, 8550],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV)",Not Available,PMC,50
+A Feasibility Study on Sustainability-Driven Infrastructure Management in Cloud Data Centers,Joseph Roque; Lia Chauvel; Moayad Aloqaily; Burak Kantarci,2018 IEEE Canadian Conference on Electrical & Computer Engineering (CCECE),Cloud computing; data centers; Power Usage Efficiency; sustainability; Virtualization; VM migration,Static Threshold + Dynamic Threshold,CPU,Random Selection (RS),Not Available,Heuristic (PUEBFD),"Power Consumption, Power Usage Effectiveness, Power Consumption of CS",Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Not available,"Energy Consumption, Number of VM Migrations, Number of PM Shutdowns, Average SLA Violation, Average Power (kW), Average PUE (kWh), Greenhouse Gas Emissions",VMs are selected individually,PMC+VMP,70
+Dynamic Tuning for Parameter-Based Virtual Machine Placement,Abdelhalik Mosa; Rizos Sakellariou,2018 17th International Symposium on Parallel and Distributed Computing (ISPDC),Cloud computing; resource utilization; virtual machine placement; virtual machine consolidation,Static Threshold,CPU,Minimum Migration Time (MMT),"RAM, Bandwidth",Heuristic (PMBFD),Not Available,Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,VMP,60
+Research on Virtual Machine Migration Algorithm for Cloud Data Center,Ying Liu; Junjie Gao; Yu Yao,"2017 International Conference on Computer Systems, Electronics and Control (ICCSEC)",cloud computing; virtualization; cloud data center; virtual machine migration,Dynamic Threshold,"CPU, RAM, Bandwidth",Not Available,Not Available,Heuristic (MD),"CPU, Bandwidth, RAM",Simulation,CloudSim,"{
+""Number of PMs"": [100],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": [1000],
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [100],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [1000, 512, 256, 128],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": [100]
+}",Not available,"Energy Consumption, Number of VM Migrations, SLA Violation % (SLAV), Number of PM Shutdowns",Not Available,PMC + VMP,48
+Optimizing power consumption in cloud computing based on optimization and predictive analysis,Dinh-Mao Bui; Eui-Nam Huh; Sungyoung Lee,IMCOM '18: Proceedings of the 12th International Conference on Ubiquitous Information Management and Communication,IaaS; Cloud Computing; Predictive Analysis; Convex Optimization; Energy Efficiency,Prediction Model (GPR),CPU,Not Available,Not Available,Exact (CO),"CPU, Average Latency of Task Processing",Real,Not available,"{
+""Number of PMs"": [16],
+""Number of PM Types"": 1,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [2400],
+""Amount of RAM (in GB)"": [12],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Google Cluster Data,"Energy Consumption, Number of Active PMs, Latency",Not Available,PMC,19
+A QoS-Guaranteed Energy-Efficient VM Dynamic Migration Strategy in Cloud Data Centers,Hao Cao; Hongguang Sun; Min Sheng; Yan Shi; Jiandong Li,2018 10th International Conference on Wireless Communications and Signal Processing (WCSP),Not available,Dynamic Threshold,"CPU, QoS requirements",Maximum Variance Decrease (MVD),QoS,Heuristic (QRDABFD + ECABFD),"CPU, Power Consumption, QoS Requirements, VM Lifetime, Migration Time",Simulation,CloudSim,"{
+""Number of PMs"": [100],
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1000],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,Energy Consumption,VMs are selected individually,PMC + VMS + VMP,20
+An Energy Aware Policy for Mapping and Migrating Virtual Machines in Cloud Environment Using Migration Factor,Vinayak Bajoria;Avita Katal;Yash Agarwal," 2018 8th International Conference on Cloud Computing, Data Science & Engineering (Confluence)",Cloud Computing;Cloud Service Provider;Virtual Machine;Data centre;Server;Host;Migration Factor,Clustering (kM),"Java Operations, Heap Memory",Migration Factor (MF),"Java Operations, Heap Memory",Heuristic (CBS),"RAM, Processing Elements, Bandwidth",Simulation,Not available,"{
+""Number of PMs"": [14],
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [56],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Not available,Energy Consumption,VMs are selected individually,PMC + VMS + VMP,9
+Consolidating VMs in Green Cloud Computing Using Harmony Search Algorithm,Mohammad Fathi; Leyli Khanli,ICIEB '18: Proceedings of the 2018 International Conference on Internet and e-Business,Cloud computing; harmony search algorithm; green computing; VM consolidation,Prediction Model (LR),CPU,Maximum Correlation (MC) + Minimum Migration Time (MMT) + Minimum Utilization (MU) + Random Selection (RS),"CPU, RAM, Bandwidth",Metaheuristic (HSA),"Power Consumption, Power Consumption of Migrations, Number of Sleeping PMs",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [800],
+""Number of VM Types"": 4,
+""Distribution of VMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [2500, 2000, 1000, 500],
+""Amount of RAM (in MB)"": [850, 3750, 1700, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,VMP,28
+Migration and Cooling Aware Approach for Virtual Machine Spreading in Data Centers,Hardik Mandora; Divyesh Patel; Nilesh Dubey,2018 3rd International Conference for Convergence in Technology (I2CT),Cloud Computing; Virtualization; Virtual Machine; Service Level Agreement; GentleCool,Not Available,Not Available,Cooling Cost (CC) + Migration Cost (MiC),"Cooling Cost, Migration Cost",Heuristic (MGC),"Cooling Cost, Migration Cost",Simulation,CloudSim,"{
+""Number of PMs"": [10, 20, 30, 50, 100, 200, 300],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [20, 40, 60, 100, 200, 400, 600],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [2500, 2000, 1000, 500],
+""Amount of RAM (in MB)"": [850, 3750, 1700, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Number of PM Shutdowns",VMs are selected individually,VMS + VMP,52
+Threshold Scheme Approach to Balance Virtual Machines Load in Private Cloud,Hamdani Arif; Prasan Sahoo,2018 International Conference on Applied Engineering (ICAE),scheduling; load balancing; cloud computing; virtual machines,Static Threshold,CPU,High CPU Utilization Based Migration (HS),CPU,Heuristic (MFFD),CPU,Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Not available,"Energy Consumption, Makespan, Completion Time, Load Balancing, Resource Utilization",VMs are selected individually,VMP,5
+Energy-efficient algorithm for load balancing and VMs reassignment in data centers,Nabila Djennane; Rachida Aoudjit; Samia Bouzeframe,2018 6th International Conference on Future Internet of Things and Cloud Workshops (FiCloudW),Cloud Data Centers; Consolidation; Energy; Load Balancing; Migration; Optimization,Static Threshold+ Prediction Model (LRR),CPU,Minimum Migration Time (MMT),"RAM, Bandwidth",Heuristic (bM),"Power Consumption, Migration Cost",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1052],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Balance Factor, Number of PM Shutdowns, Execution Time",VMs are selected individually,VMP,25
+CoolCloudSim: Integrating cooling system models in CloudSim,Pintea Cristean; Pintea Eugen; Antal Marcel; Claudia Pop; Tudor Cioara; Ionut Anghel; Ioan Salomie,2018 IEEE 14th International Conference on Intelligent Computer Communication and Processing (ICCP),Data Center; Energy Efficient; CloudSim; Thermal-Aware; Cooling System; Consolidation; Simulation,Dynamic Threshold + Prediction Model (LR + LRR),CPU,Minimum Migration Time (MMT) + Maximum Correlation (MC),"CPU, RAM, Bandwidth",Heuristic (MSBFD + MWFD + FFDDHAM + TASBFD),CPU,Simulation,CoolCloudSim,"{
+""Number of PMs"": [50],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [2.048, 4.096],
+""Amount of Storage (in GB)"": [1],
+""Amount of Bandwidth (in Gbps)"": [1000]
+}","{
+""Number of VMs"": [50],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1740, 870],
+""Amount of Storage (in GB)"": [2.5],
+""Amount of Bandwidth (in Mbps)"": [100]
+}",Not available,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), CPU Thermal SLA",VMs are selected individually,VMP,23
+Priority-aware Virtual Machine selection algorithm in dynamic consolidation,Hanan Nadeem; Mai Fadel; Hanan Elazhary,International Journal of Advanced Computer Science and Applications(IJACSA),Cloud computing; energy efficiency; service level agreement; VM consolidation; VM selection,Static Threshold + Prediction Model (LRR),CPU,Priority-aware Minimum Migration Time (PaMMT),"Priority, RAM, Bandwidth",Heuristic (PABFD),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1700, 850, 3750],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,VMS,61
+QoS-aware VM placement and migration for hybrid cloud infrastructure,Kamran; Babar Nazir;,The Journal of Supercomputing,Cloud computing; Power management; Quality of service; Virtual machine placement; Server consolidation; Service-level agreement (SLA); Utility computing; VM migration; Energy efficiency; Data center ,Static Threshold,CPU,Quality of Service Constraints (QoSC),"CPU, Time Constraints",Heuristic (QoSABFD),"CPU, QoS Requirements",Simulation,CloudSim,"{
+""Number of PMs"": [400],
+""Number of PM Types"": 3,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [1000, 2000, 3000],
+""Amount of RAM (in GB)"": [8],
+""Amount of Storage (in GB)"": [1000],
+""Amount of Bandwidth (in Gbps)"": [100]
+}","{
+""Number of VMs"": [500],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [250, 500,  750, 1000],
+""Amount of RAM (in MB)"": [128, 256],
+""Amount of Storage (in GB)"": [2500],
+""Amount of Bandwidth (in Mbps)"": [2500]
+}",Planet Lab,"Energy Consumption, Number of SLA Violations, Number of VM Migrations",VMs are selected individually,VMS + VMP,63
+Power and resource-aware virtual machine placement for IaaS cloud,Madnesh Gupta; Ankit Jain; Tarachand Amgoth.,Sustainable Computing: Informatics and Systems,IaaS cloud; Virtualization; VM placement; Power consumption; Resource utilization; SLA violations,Static Threshold,"CPU, RAM",Not Available,Not Available,Heuristic (BFD),Resource Usage Factor,Simulation,MATLAB,"{
+""Number of PMs"": -1,
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [3720, 5320],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [200, 400, 600, 800, 1000],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000,  5320, 2500],
+""Amount of RAM (in MB)"": [613, 1740, 3480, 870],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,"Energy Consumption, Number of SLA Violations, Number of Active PMs, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV)",Not Available,VMP,30
+Optimizing the Energy Efficient VM Consolidation by a Multi-Objective Algorithm,Kudamaduwage Jayasena; Lin Li; Mohamed Elaziz; Shengwu Xiong; Jianwen Xiang,2018 IEEE 22nd International Conference on Computer Supported Cooperative Work in Design ((CSCWD)),Multi-objective optimization; VMC; MOSCA; Energy consumption; SLAV,Not Available,Not Available,Not Available,Not Available,Metaheuristic (MOSCA),"CPU, Power Consumption, RAM, HDD, SLA Violations, Mean Time Between Host Shutdown",Simulation,CloudSim,"{
+""Number of PMs"": [25, 75, 100, 800],
+""Number of PM Types"": 5,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [50, 100, 150, 200],
+""Number of VM Types"": 2,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [2500, 100],
+""Amount of RAM (in MB)"": [870, 1740],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": [100, 200]
+}",Planet Lab,"Energy Consumption, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Mean Time Before PM Shutdown, Hypervolume, Generational Distance, Inverted Generational Distance, Epsilon",Not Available,VMP,37
+Sharing with live migration energy optimization scheduler for cloud computing data centers,Samah Alsahathri; Bogdan Ghita; Nathan Clarke,Future Internet,cloud computing; scheduling algorithm; green computing; energy optimization; virtualization; simulation,Static Threshold,CPU,Not Available,Not Available,Heuristic (SLM),"CPU, Waiting Time",Simulation,CloudSim,"{
+""Number of PMs"": [6],
+""Number of PM Types"": 1,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [4],
+""Frequency of CPU (in MIPS)"": [10000],
+""Amount of RAM (in GB)"": [8],
+""Amount of Storage (in GB)"": [2000],
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [60],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Not available,"Energy Consumption, Makespan",Not Available,VMP,2
+Adaptive selection of dynamic VM consolidation algorithm using neural network for cloud resource management,Joseph Witanto; Hyotaek Lim; Mohammed Atiquzzaman,Future Generation Computer Systems,Cloud computing; Infrastructure as a service; Resource management; Dynamic consolidation; Virtual machine migration; Neural network,Static Threshold + Prediction Model (LR),CPU,Minimum Migration Time (MMT),"RAM, Bandwidth",Heuristic (BFD) + Heuristic (ACFFD),"CPU, RAM",Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, SLA Violation % (SLAV), First Rank Occurrence, Relative Score to Best One, Average Rank",VMs are selected individually,PMC + VMP,83
+Multi-objective Energy Efficient Resource Allocation Using Virus Colony Search (VCS) Algorithm,Kudamaduwage Jayasena; Lin Li; Mohamed Elaziz; Shengwu Xiong,2018 IEEE 20th International Conference on High Performance Computing and Communications; IEEE 16th International Conference on Smart City; IEEE 4th International Conference on Data Science and Systems (HPCC/SmartCity/DSS),Energy consumption; MOVCS; Multi-objective optimization; SLAV; VMM; VMP,Not Available,Not Available,Not Available,Not Available,Metaheuristic (VCS),"CPU, Power Consumption, RAM, Bandwidth, SLA Violations, Number of Migrations",Simulation,CloudSim,"{
+""Number of PMs"": [25, 75, 100, 800],
+""Number of PM Types"": 5,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [50, 100, 150, 200],
+""Number of VM Types"": 2,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [2500, 100],
+""Amount of RAM (in MB)"": [870, 1740],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": [100, 200]
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Hypervolume, Spread, Inverted Generational Distance",Not Available,VMP,36
+Energy-Aware Dynamic Virtual Machine Consolidation for Cloud Datacenters,Hui Wang; Huaglory Tianfield,IEEE Access,Cloud computing; green cloud computing; dynamic virtual machine consolidation; virtual machine placement; cloud datacenter,Static Threshold + Dynamic Threshold + Prediction Model (LR + LRR),CPU,High CPU Utilization Based Migration (HS),CPU,Heuristic (SABFD),CPU,Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [50, 100, 150, 200],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [2500, 2000, 1000, 500],
+""Amount of RAM (in MB)"": [850, 3750, 1700, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), Number of PM Shutdowns, Mean Time Before PM Shutdown, Mean Time Before VM Migration",VMs are selected individually,VMS + VMP,81
+Minimizing SLA violation and power consumption in Cloud data centers using adaptive energy-aware algorithms,Zhou Zhou; Jemal Abawajy; Morshed Chowdhury; Zhigang Hu; Keqin Li; Hongbing Cheng; Abdulhameed Alelaiwi; Fangmin Li,Future Generation Computer Systems,Cloud computing; Energy Efficiency; CPU intensive task; I/O intensive task; VM deployment; Service Level Agreement; Data Center,Dynamic Threshold ,CPU,Maximum ratio of CPU utilization to memory utilization (MRCU) + Minimum the product of a CPU utilization and a memory utilization (MPCU),"CPU, RAM",Heuristic (MEEBFD),"Power Consumption, Energy Efficiency, SLATAH, PDM, SLA Violations",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 1516],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [2500, 2000, 1000, 500],
+""Amount of RAM (in MB)"": [850, 3750, 1700, 610],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy Efficiency",VMs are selected individually,PMC + VMS + VMP,88
+"Data analytics for energy-efficient clouds: design, implementation and evaluation",Albino Altomare; Eugenio Cesario; Andrea Vinci,"International Journal of Parallel, Emergent and Distributed Systems",Green computing; energy-aware clouds; data mining for energy efficiency,Static Threshold + Prediction Model (J48 + JRip + RF),"CPU, RAM",Not Available,Not Available,Not Available,Not Available,Simulation,Not available,"{
+""Number of PMs"": [10],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [8],
+""Frequency of CPU (in MIPS)"": [3000],
+""Amount of RAM (in GB)"": [32, 24],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [75],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Authors' own,"Energy Consumption, Number of SLA Violations, Number of VM Migrations, Resource Utilization",Not Available,PMC,3
+A learning automata-based algorithm for energy and SLA efficient consolidation of virtual machines in cloud data centers,Milad Ranjbari; Javad Torkestani,Journal of Parallel and Distributed Computing,Cloud computing; Resource management; Energy consumption; Service level agreement; Virtual machine migration,Static Threshold + Prediction Model (LA),CPU,Minimum Migration Time (MMT),"RAM, Bandwidth",Heuristic (PABFD),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Number of PM Shutdowns",VMs are selected individually,PMC,69
+Enhanced cuckoo search algorithm for virtual machine placement in cloud data centres,Esha Barlaskar; Yumnam Singh; Biju Issac,International Journal of Grid and Utility Computing,virtual machine placement; meta-heuristic algorithms; enhanced cuckoo search algorithm; cloud computing,Static Threshold + Dynamic Threshold + Prediction Model (LR + LRR),CPU,Maximum Correlation (MC) + Minimum Migration Time (MMT) + Minimum Utilization (MU) + Random Selection (RS),"CPU, RAM, Bandwidth",Metaheuristic (ECS),"Power Consumption, Processing Elements, RAM, Bandwidth",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1052, 1516, 1078],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,VMP,11
+Energy-aware adaptive four thresholds technique for optimal virtual machine placement,A. Mohazabiyeh; Khosrow Amirizadeh,International Journal of Electrical and Computer Engineering (IJECE),Adaptive four-threshold; Cloud computing; Dynamic virtualization; Energy efficiency; SLA Agreement,Dynamic Threshold,CPU,Minimum Migration Time (MMT) + Maximum Correlation (MC),"CPU, RAM, Bandwidth",Heuristic (PABFD),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [8],
+""Amount of Storage (in GB)"": [1000],
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1195],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [128],
+""Amount of Storage (in GB)"": [1],
+""Amount of Bandwidth (in Mbps)"": -1
+}",Not available,"Energy Consumption, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV)",VMs are selected individually,PMC,58
+Enhancing Energy-Efficient and QoS Dynamic Virtual Machine Consolidation Method in Cloud Environment,Yaqiu Liu; Xinyue Sun; Wei Wei; Weipeng Jing,IEEE Access,Cloud computing; energy efficiency; quality of service; virtual machine migration,Dynamic Threshold + Prediction Model (ARIMA),CPU,Loss of CPU capacity (LoCC),CPU,Heuristic (DRBFD),CPU,Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2260],
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033, 1171, 1169, 1156, 1151, 1141, 1143, 1131, 1130, 1123],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1700, 3750, 850],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,PMC + VMS + VMP,49
+Virtual Machine Consolidation with Multiple Usage Prediction for Energy-Efficient Cloud Data Centers,Nguyen Hieu; Mario Francesco; Antti Yla-Jaaski,IEEE Transactions on Services Computing,Virtual machine consolidation; virtual machine migration; multiple resource prediction; cloud computing; data centers,Static Threshold + Prediction Model (LR),CPU,Minimum Resource Temperature (MRT),"CPU, RAM",Heuristic (PABFD + MUP) + Prediction Model (LR),"CPU, Power Consumption, RAM",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1600, 1473],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1740, 870],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab + Google Cluster Data + Synthetical,"Energy Consumption, Number of Active PMs, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Number of Cold Spots, Number of Hot Spots, Number of Power State Changes",VMs are selected individually,PMC + VMS + VMP,64
+Resource-utilization-aware energy efficient server consolidation algorithm for green computing in IIOT,"Guangjie Han, Wenhui Que, Gangyong Jia, Wenbo Zhang",Journal of Network and Computer Applications,Industrial Internet of Things (IIOT); Resource-utilization-aware; Energy efficient; Server consolidation,Static Threshold + Prediction Model (LR),"CPU, RAM",Minimum Migration Time (MMT) ,"RAM, Bandwidth",Heuristic (PABFD),"CPU, Power Consumption, Load Balance",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1740, 870],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Google Cluster Data,"Energy Consumption, Number of VM Migrations, SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,PMC + VMP,33
+Holistic Virtual Machine Scheduling in Cloud Datacenters towards Minimizing Total Energy,Xiang Li; Peter Garraghan; Xiaohong Jiang; Zhaohui Wu; Jie Xu,IEEE Transactions on Parallel and Distributed Systems,Cloud computing; energy efficiency; datacenter modeling ; workload scheduling; virtual machine,Dynamic Threshold,Temperature,Minimum CPU Utilization (MCU),CPU,Heuristic (BFD),Power Consumption,Simulation,CloudSim,"{
+""Number of PMs"": [360],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2, 8],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [32000, 64000],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1, 2 ,4],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Google Cluster Data,"Energy Consumption, Number of Active PMs, SLA Violation % (SLAV), CPU Temperature",VMs are selected individually,VMS + VMP,45
+Energy Efficient Quality of Service Aware Virtual Machine Migration in Cloud Computing,Neeraj Sharma; Priyanka Sharma; Ram Guddeti,2018 4th International Conference on Recent Advances in Information Technology (RAIT),Cloud Computing; Data Center; First-it; Physical Machine; Virtual Machine; Energy Efficiency,Static Threshold,CPU,Minimum Migration Cost (MMC),"Migration Cost, SLA penalty",Heuristic (FFD),Not Available,Simulation,CloudSim,"{
+""Number of PMs"": [1023],
+""Number of PM Types"": 3,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2, 4, 12],
+""Frequency of CPU (in MIPS)"": [2660, 3067],
+""Amount of RAM (in GB)"": [4, 8, 16],
+""Amount of Storage (in GB)"": [160, 250, 500],
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": 3,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1, 2 ,3],
+""Frequency of CPU (in MIPS)"": [500, 1000, 1500],
+""Amount of RAM (in MB)"": [500, 1000, 2000],
+""Amount of Storage (in GB)"": [40, 60, 80],
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,"Energy Consumption, Resource Utilization",VMs are selected as a group,VMP,72
+Quantum virtual machine: power and performance management in virtualized web servers clusters,André Monteiro; Orlando Loques,Cluster Computing,Power-aware computing; Virtualization; Web server clusters; Resource management; Scalability,Static Threshold,CPU,Not Available,Not Available,Exact (MILP) + Heuristic (QVM),"CPU, Maximum Request Capacity per Core",Real,Xen,"{
+""Number of PMs"": [5],
+""Number of PM Types"": 5,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2, 8, 48, 64],
+""Frequency of CPU (in MIPS)"": [7000, 8000, 1000],
+""Amount of RAM (in GB)"": [48, 64],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [10, 20, 40, 100],
+""Number of VM Types"": 1,
+""Distribution of VMs"": ""Available"",
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": [1000],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Google Cluster Data,"Energy Consumption, Number of Active Cores, Response Time, QoS violation (%)",Not Available,VMP,59
+Energy-performance optimisation for the dynamic consolidation of virtual machines in cloud computing,H. Li; T. Li; Z. Shuhua,International Journal of Services Operations and Informatics,energy and performance optimisation; grey correlation degree; self-adaptive thresholds; VM allocation; VM consolidation,Dynamic Threshold,CPU,Minimum Migration Time (MMT),"RAM, Bandwidth",Heuristic (GCD),"CPU, Power Consumption, MIPS, RAM",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [898, 1054, 1061, 1358, 1516],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [870, 40, 1740, 613],
+""Amount of Storage (in GB)"": [2.5],
+""Amount of Bandwidth (in Mbps)"": [100]
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), Energy-SLAV-Migration",VMs are selected individually,PMC+VMP,43
+CompVM: A Complementary VM Allocation Mechanism for Cloud Systems,Haiying Shen; Liuhua Chen,IEEE/ACM Transactions on Networking,Cloud; service-level agreement (SLA); virtual machine (VM); resource provisioning,Not Available,"CPU, RAM",Complimentary VM (CompVM),CPU + RAM,Heuristic (FF),"CPU, RAM",Real + Simulation,Xen,"{
+""Number of PMs"": [7],
+""Number of PM Types"": 1,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1500, 2000],
+""Amount of RAM (in GB)"": [1.536, 2],
+""Amount of Storage (in GB)"": [60],
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [4, 6, 8, 10, 12, 14, 1000, 2000, 3000],
+""Number of VM Types"": 1,
+""Distribution of VMs"": ""Available"",
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500],
+""Amount of RAM (in MB)"": [256, 512],
+""Amount of Storage (in GB)"": [8],
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab + Google Cluster Data,"Number of SLA Violations, Number of Active PMs, Number of VM Migrations",VMs are selected as a group,VMS + VMP,74
+SLA-Aware and Energy-Efficient VM Consolidation in Cloud Data Centers Using Robust Linear Regression Prediction Model,Lianpeng Li; Jian Dong; Decheng Zuo; Jin Wu,IEEE Access,VM consolidation; linear regression; SLA-aware; energy-efficient; cloud data centers,Dynamic Threshold + Prediction Model (RSLinR),CPU,Minimum Migration Time (MMT),"RAM, Bandwidth",Heuristic (RPABFD) + Prediction Model (RSLR),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [50, 1052, 1516, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 1700, 610],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical + Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Average SLA Violation, Overall SLA Violation, Number of PM Shutdowns",VMs are selected individually,PMC + VMP,44
+QoS Aware Energy Efficient VM Consolidation Techniques for a Virtualized Data Center,Anurina Tarafdar; Sunirmal Khatua; Rajib Kas,2018 IEEE/ACM 11th International Conference on Utility and Cloud Computing (UCC),cloud computing; deadline; energy efficiency; green computing; prediction; virtual machine,Static Threshold + Prediction Model (MkC),"CPU, VM Deadline",Deadline Aware Prediction Based Migration (DAPBM),CPU,Heuristic (MBFD),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 1700, 1700, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), Execution Time",VMs are selected individually,PMC+VMS,76
+Adaptive Energy-Aware Algorithms for Minimizing Energy Consumption and SLA Violation in Cloud Computing,Rahul Yadav; Weizhe Zhang; Omprakash Kaiwartya; Prabhat Singh; Ibrahim Elgendy; Yu-Chu Tian,IEEE Access,Cloud computing; cloud data center; energy-efficiency; green computing; host overloaded detection; regression method; service level agreements,Dynamic Threshold,"CPU, Safety parameter, Scheduling Interval, Number of VMs, Maximum Migration Time",Bandwidth-Aware Dynamic (Bw),"CPU, RAM, Bandwidth, Mean Ping Time",Heuristic (MBFD),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 4,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [4],
+""Frequency of CPU (in MIPS)"": [2700, 3500, 3600],
+""Amount of RAM (in GB)"": [8],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 3750, 1700, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Number of PM Shutdowns, Perrtric",VMs are selected individually,PMC+VMS,85
+Enabling green computing in cloud environments: Network virtualization approach toward 5G support,"Jitendra Kumar Verma, Sushil Kumar, Omprakash Kaiwartya, Jaime Lloret, C. P. Katti, Rupak Kharel",Transactions on Emerging Telecommunications Technologies,network virtualization; 5G; green computing,Static Threshold + Dynamic Threshold,CPU,Median Migration Time (MeMT) + Smallest Void Detection (SVD) + Maximum Fill Technique (MFT),"CPU, RAM, Bandwidth",Heuristic (BFD),CPU,Simulation,CloudSim,"{
+""Number of PMs"": [1200],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 3750, 1700, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab + Synthetical,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,VMS,80
+Energy-efficient virtual machine selection based on resource ranking and utilization factor approach in cloud computing for IoT,"Mahammad Shareef Mekala, P Viswanathan",Computers & Electrical Engineering,Cloud computing; Resource requirement rate; CRB Ranking; Processing element cost; Task categorization; VM Migration,Dynamic Threshold,"CPU, RAM, Energy Consumption",Comprehensive Resource Balance (CRB) + Processing Element Cost (PEC),"CPU, RAM, Bandwidth, Communication",Heuristic (SUM),CPU,Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": 5,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [1, 2, 3, 4, 5],
+""Frequency of CPU (in MIPS)"": [5000, 4500, 6000, 5500, 6500],
+""Amount of RAM (in GB)"": [24],
+""Amount of Storage (in GB)"": [50, 70, 80],
+""Amount of Bandwidth (in Gbps)"": [100]
+}","{
+""Number of VMs"": [20, 500],
+""Number of VM Types"": 5,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1, 2, 3],
+""Frequency of CPU (in MIPS)"": [5000, 4500, 6000, 5500, 6500],
+""Amount of RAM (in MB)"": [512, 1024],
+""Amount of Storage (in GB)"": [5, 7, 8],
+""Amount of Bandwidth (in Mbps)"": [1000]
+}",Not available,"Energy Consumption, Number of VM Migrations, SLA Violation % (SLAV), Resource Utilization, ",VMs are selected individually,VMS + VMP,54
+A Novel Self-Adaptive VM Consolidation Strategy Using Dynamic Multi-Thresholds in IaaS Clouds,Lei Xie; Shengbo Chen; Wenfeng Shen; Huaikou Miao ,Future Internet,self-adaptive VM consolidation; dynamic multi-thresholds; energy consumption; QoS; IaaS clouds,Dynamic Threshold,"CPU, RAM, Bandwidth",Minimization of Migrations (MM),"CPU, RAM, Bandwidth",Heuristic (BF),"CPU, RAM, Bandwidth",Simulation,CloudSim,"{
+""Number of PMs"": [50],
+""Number of PM Types"": 4,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [2000, 2500, 3000, 4000],
+""Amount of RAM (in GB)"": [1, 2, 4, 8],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [0.5, 0.8, 1]
+}","{
+""Number of VMs"": [200],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [1000, 1500, 2000, 3000],
+""Amount of RAM (in MB)"": [500, 1000, 2000, 4000],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": [100, 200, 400]
+}",Not available,"Energy Consumption, Number of Active PMs, Number of VM Migrations, SLA Violation % (SLAV)",VMs are selected individually,PMC,84
+Energy efficient resource selection and allocation strategy for virtual machine consolidation in cloud datacenters,Yaohui Chang; Chunhua Gu; Fei Luo; Guisheng Fan; Wenhao Fu,IEICE Transactions on Information and Systems,residual available capacity model; server consolidation; virtual machine migration; energy consumption; cloud computing,Static Threshold,CPU,Minimized Square Root (MSR),"CPU, RAM",Heuristic (RACBFD),"CPU, Residual Available Capacity, RAM",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1740, 870],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of Active PMs, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), Number of PM Shutdowns, Active PM Time",VMs are selected individually,VMS + VMP,21
+A stochastic process-based server consolidation approach for dynamic workloads in cloud data centers,Hossein Naeen; Esmaeil Zeinali; Abolfazl Haghighat,The Journal of Supercomputing,Cloud computing; Dynamic server consolidation; Virtual machine placement; Stochastic workload analysis,Static Threshold + Dynamic Threshold + Prediction Model (SVR),CPU,Minimum Migration Time (MMT),"RAM, Bandwidth",Heuristic (SPBFD),"CPU, Probability of Overutilization",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1700, 3500, 850],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), Switch Energy Consumption, Number of Power State Changes",VMs are selected individually,PMC + VMP,62
+An adaptive heuristic for managing energy consumption and overloaded hosts in a cloud data center,Rahul Yadav; Weizhe Zhang; Keqin Li; Chuanyi Liu; Muhammad Shafiq; Nabin Kumar Karn,Wireless Networks,Cloud computing; Data center; Energy Consumption; Host overloaded detection; Service level agreements; VM selection,Dynamic Threshold + Prediction Model (LmsReg),CPU,Minimum Utilization Prediction (MuP),CPU,Heuristic (MBFD),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 4,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [4],
+""Frequency of CPU (in MIPS)"": [2700, 3500, 3600],
+""Amount of RAM (in GB)"": [8],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1700, 3750, 850],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Average SLA Violation, Performance Ratio, Number of PM Shutdowns",VMs are selected individually,PMC + VMS,86
+New six-phase on-line resource management process for energy and SLA efficient consolidation in cloud data centers,Ehsan Arianyan; Hassan Taheri; Saeed Sharifian; Mohsen Tarighi,The International Arab Journal of Information Technology,Cloud computing; virtual machine; energy consumption; migration; cloudSim,Prediction Model (WMA),"CPU, RAM, Bandwidth",Minimum Migration Time (MMT),"RAM, Bandwidth",Multi-Criteria-Decision-Making (TOPSIS),Not Available,Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1740, 3750, 870],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), Execution Time, Average SLA Violation, Energy-SLAV-Migration",VMs are selected individually,PMC + VMS + VMP,4
+"Hierarchical, Portfolio Theory-Based Virtual Machine Consolidation in a Compute Cloud",Inkwon Hwang; Massoud Pedram,IEEE Transactions on Services Computing,Cloud computing; portfolio effect; multi-capacity bin packing; resource allocation; stochastic; virtual machine,Static Threshold,Not Available,Not Available,Not Available,Heuristic (ARDFFD + MNVDBFD),Not Available,Simulation,Not available,"{
+""Number of PMs"": -1,
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [500, 1000, 1500, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,"Number of VM Migrations, Overall Cost, Execution Time",Not Available,VMP,35
+Energy Aware Resource Allocation for Clouds Using Two Level Ant Colony Optimization,Ashok Kumar; Rajesh Kumar; Anju Sharma,COMPUTING AND INFORMATICS,Energy efficiency; resource allocation in cloud; dynamic voltage frequency scaling; ant colony optimization; quality of service,Static Threshold,"CPU, RAM, Bandwidth",Not Available,Not Available,Metaheuristic (ACO),"Power Consumption, Execution Time, Cost of Execution",Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": 5,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [4, 8, 12, 20, 36],
+""Frequency of CPU (in MIPS)"": [1000, 1500, 2000, 3000, 5000],
+""Amount of RAM (in GB)"": [8, 16, 32, 64],
+""Amount of Storage (in GB)"": [2000, 4000],
+""Amount of Bandwidth (in Gbps)"": [10]
+}","{
+""Number of VMs"": [200, 400, 600, 800, 1000, 1200],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1, 2, 4, 8],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 4000],
+""Amount of RAM (in MB)"": [512, 1024, 2048, 4096],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": [1000, 2000, 4000, 8000]
+}",Synthetical,"Energy Consumption, Number of Active PMs, Number of VM Migrations, Resource Utilization, Number of Hot Spots, Load Balancing, Computational Energy",Not Available,VMP,41
+An energy-efficient VM placement method for cloud data centers using a hybrid genetic algorithm,Mohamed Kaaouache; Sadok Bouamama,Journal of Systems and Information Technology,Energy; Cloud computing; Hybrid genetic algorithm; Server consolidation; Virtual machine placement,Static Threshold,Not Available,Not Available,Not Available,Metaheuristic (GA) + Heuristic (BFD),"CPU, Power Consumption, RAM",Simulation,CloudSim,"{
+""Number of PMs"": [200, 300, 500, 600, 700, 800, 900, 1052],
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [100, 200, 300, 400, 500, 600, 700, 800],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [2000, 3500],
+""Amount of RAM (in MB)"": [128, 4096],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": [100, 500]
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Execution Time, Number of SLA Violations",Not Available,VMP,38
+An adaptive overload threshold selection process using Markov decision processes of virtual machine in cloud data center,Zhihua Li,Cluster Computing,Host overload detection; Markov decision processes; Overload threshold; Optimization model; Value iteration method,Dynamic Threshold,"CPU, RAM",Minimum Migration Time (MMT),"RAM, Bandwidth",Heuristic (PABFD),CPU,Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2260],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [613, 1700, 3750, 850],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,PMC,46
+A Joint Power Efficient Server and Network Consolidation approach for virtualized data centers,Antonio Marotta; Stefano Avallone; Andreas Kassler,Computer Networks,Cloud; Virtualization; Power; Green computing; Simulated annealing,Not Available,CPU,Not Available,Not Available,Metaheuristic (SA),Power Consumption,Analytical,Not available,"{
+""Number of PMs"": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600],
+""Number of PM Types"": -1,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [4, 6, 8, 12, 16, 18, 20, 24, 32],
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in GB)"": [2, 4, 6, 8, 10, 12, 16, 20, 32],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800],
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1, 2, 3, 4, 5, 6, 7, 8],
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,"Energy Consumption, Number of Active PMs, Number of VM Migrations, Execution Time, Network Power Consumption, Number of Active Network Nodes and Links, Resource Utilization",Not Available,VMP,53
+EQUAL: ENERGY AND QOS AWARE RESOURCE ALLOCATION APPROACH FOR CLOUDS,Ashok Kumar; Rajesh Kumar; Anju Sharma,COMPUTING AND INFORMATICS,Energy efficiency; resource utilization; resource allocation; antlion optimization; quality of service,Static Threshold + Dynamic Threshold,CPU,Not Available,Not Available,Metaheuristic (ALO),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [200],
+""Number of PM Types"": 4,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [4, 12],
+""Frequency of CPU (in MIPS)"": [2933, 3067],
+""Amount of RAM (in GB)"": [8, 12, 16],
+""Amount of Storage (in GB)"": [500],
+""Amount of Bandwidth (in Gbps)"": [10]
+}","{
+""Number of VMs"": [200, 400, 600, 800, 1000],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1, 2, 4],
+""Frequency of CPU (in MIPS)"": [500, 1000, 1500, 2000],
+""Amount of RAM (in MB)"": [768, 1792, 3584, 7168],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": [1000]
+}",Synthetical,"Energy Consumption, Number of VM Migrations, Number of Hot Spots, Number of Cold Spots, Execution Time, Deadlines Missed",Not Available,VMP,42
+Toward a hierarchical and architecture-based virtual machine allocation in cloud data centers,Ali Rahmanian; Abbas Horri; Gholamhossein Dastghaibyfard,International Journal of Communication Systems,data center architecture; dynamic consolidation; power efficiency; resource management; virtualization,Prediction Model,CPU,Minimum Migration Time (MMT) + Dynamic Threshold Maximum Fit (DTHMF) + Minimization of Migrations (MM),"CPU, RAM, Bandwidth",Heuristic (PABFD + UMC) + Multi-Criteria-Decision-Making (TOPSIS),Not Available,Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [870, 1740, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of Active PMs, Number of VM Migrations, SLA Violation % (SLAV), Energy-SLA Violation (ESV), Number of Active Racks, Number of Active Modules,  Switch Energy Consumption, Data Transfer",VMs are selected individually,PMC + VMP,68
+Energy-aware resource utilization based on particle swarm optimization and artificial bee colony algorithms in cloud computing,Jafar Meshkati; Faramarz Safi-Esfahani,The Journal of Supercomputing,Green computing; Energy-aware scheduling; Hybrid metaheuristic algorithms; ABC algorithm; PSO algorithm,Static Threshold,"CPU, RAM, Energy Consumption",Not Available,Not Available,Metaheuristic (ABC + PSO),"Power Consumption, Execution Time",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [24, 8],
+""Frequency of CPU (in MIPS)"": [10000],
+""Amount of RAM (in GB)"": [50],
+""Amount of Storage (in GB)"": [1000],
+""Amount of Bandwidth (in Gbps)"": [10]
+}","{
+""Number of VMs"": [100, 200, 300, 400, 500, 600],
+""Number of VM Types"": 2,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1000, 5000],
+""Amount of RAM (in MB)"": [4000],
+""Amount of Storage (in GB)"": [200],
+""Amount of Bandwidth (in Mbps)"": [1000]
+}",Planet Lab,"Energy Consumption, Number of Active PMs, Number of VM Migrations, Execution Time, Computational Energy ",Not Available,VMP,56
+Energy-aware and multi-resource overload probability constraint-based virtual machine dynamic consolidation method,Zhihua Li; Chengyu Yan; Lei Yu; Xinrong Yu,Future Generation Computer Systems,Virtual machine consolidation; Multi-resource constraints; Optimization model; Artificial bee colony-like search; Energy aware,Prediction Model,"CPU, RAM, Bandwidth",Minimum Migration Time (MMT),"RAM, Bandwidth",Metaheuristic (ABC),Resource Overload Probability,Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [36, 40],
+""Frequency of CPU (in MIPS)"": [2300, 2200],
+""Amount of RAM (in GB)"": [64],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033, 1237, 1233, 1232, 1209, 1202, 1191, 1188, 1186, 1183, 1175],
+""Number of VM Types"": 8,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1, 2, 4, 8],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 3750, 1700, 613, 7500, 1500, 3000],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab + Bitbrains,"Energy Consumption, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), Memory Demand Violations (MDV), Bandwidth Demand Violations (BDV)",VMs are selected individually,PMC + VMP,47
+An energy efficient and SLA compliant approach for resource allocation and consolidation in cloud computing environments,"Mohammad-Hossein Malekloo, Nadjia Kara; May El Barachi",Sustainable Computing: Informatics and Systems,Green cloud computing; Virtual machine placement; Virtual machine consolidation; Multi-objective optimization,Not Available,Not Available,Not Available,Not Available,Metaheuristic (ACO),"Power Consumption, SLA Violations, Number of Migrations",Simulation,CloudSim,"{
+""Number of PMs"": [30, 50, 125, 250, 500, 700],
+""Number of PM Types"": 4,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1000, 2000, 3000, 4000],
+""Amount of RAM (in GB)"": [10],
+""Amount of Storage (in GB)"": [1000],
+""Amount of Bandwidth (in Gbps)"": [100]
+}","{
+""Number of VMs"": [40, 80, 200, 400, 800, 1000],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [250, 500, 750, 1000],
+""Amount of RAM (in MB)"": [128],
+""Amount of Storage (in GB)"": [1],
+""Amount of Bandwidth (in Mbps)"": [2500]
+}",Synthetical,"Energy Consumption, Number of SLA Violations, Number of Active PMs, Number of VM Migrations, SLA Violation % (SLAV), Resource Wastage, Communication Cost Energy Consumption, Execution Time, ",Not Available,VMP,51
+Markov Prediction Model for Host Load Detection and VM Placement in Live Migration,"SUHIB BANI MELHEM, ANJALI AGARWAL, NISHITH GOEL, MARZIA ZAMAN",IEEE Access,VM live migration; host overload/underload detection; VM placement; CloudSim,Static Threshold + Prediction Model (MkC),CPU,Maximum Correlation (MC) + Minimum Migration Time (MMT) + Maximum Utilization (MaxU) + Random Selection (RS),"CPU, RAM, Bandwidth",Heuristic (MkPABFD),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800, 50],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 1516, 1463, 1033, 50],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 1700, 3750, 633],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab + Synthetical,"Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Average SLA Violation, Energy Consumption, Overall SLA Violation, Number of PM Shutdowns",VMs are selected individually,PMC + VMP,55
+Power-network aware VM migration heuristics for multi-tier web applications,Amir Hossein Borhani; Terence Hung; Bu-Sung Lee; Zheng Qin,Cluster Computing,Resource management; Energy efficiency and management; Service level agreement; Multi-tier web applications; Network-aware VM migration; Energy-aware VM migration,Static Threshold + Dynamic Threshold,CPU,Power and Network Gain (PNG),"Energy Consumption, Bandwidth",Heuristic (MBFD),Not Available,Simulation,CloudSim,"{
+""Number of PMs"": [28],
+""Number of PM Types"": 3,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [1860, 2833, 2400],
+""Amount of RAM (in GB)"": [16, 8, 4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": -1,
+""Number of VM Types"": -1,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": -1,
+""Amount of RAM (in MB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, SLA Violation Time per Active Host (SLATAH), Completion Time, Time Overloaded, Average Traffic Gain",VMs are selected individually,PMC + VMS,18
+A reliable energy-aware approach for dynamic virtual machine consolidation in cloud data centers,Monireh Sayadnavard; Abolfazl Haghighat; Amir Rahmani,The Journal of Supercomputing,Cloud computing; VM consolidation; Live migration; Energy efficiency; Reliability; Markov chain,Static Threshold + Prediction Model (LR + MC),"CPU, Occupation Time, Mean First Passage Time",Ratio of CPU Usage Weight to RAM Usage Weight (RCUWRUW),"CPU, RAM",Prediction Model (CTMkC),"Power Consumption, Reliability of PM, Occupation Time",Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2260],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 1700, 3750, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV)",VMs are selected individually,PMC + VMS + VMP,71
+Energy-Efficient and SLA-Aware Virtual Machine Selection Algorithm for Dynamic Resource Allocation in Cloud Data Centers,Seyedhamid Moghaddam; Sareh Piraghaj; Michael O’Sullivan; Cameron Walker; Charles Unsworth,2018 IEEE/ACM 11th International Conference on Utility and Cloud Computing (UCC),Cloud Computing; Virtual Machine; Load Balancing,Prediction Model (LR),CPU,Pearson Correlation of CPU Usage (PCC) + CPU Usage Proportion to Host (CUPH),CPU,Heuristic (PABFD),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": [800, 50],
+""Number of PM Types"": 4,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2, 32],
+""Frequency of CPU (in MIPS)"": [1860, 2660, 2500],
+""Amount of RAM (in GB)"": [4, 32, 64],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033, 798],
+""Number of VM Types"": 6,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500, 1225],
+""Amount of RAM (in MB)"": [850, 1700, 3750, 630, 1800, 900],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab + Google Cluster Data,"Energy Consumption, Number of VM Migrations, Performance Degradation due to Migration (PDM), SLA Violation Time per Active Host (SLATAH), SLA Violation % (SLAV), Energy-SLA Violation (ESV), Number of Re-Overloaded PMs",VMs are selected individually,VMS,57
+An Energy-Efficient Dynamic Resource Management Approach Based on Clustering and Meta-Heuristic Algorithms in Cloud Computing IaaS Platforms,Maryam Haghighi; Mehrdad Maeen; Majid Haghparast,Wireless Personal Communications,Dynamic virtual machine consolidation; Green cloud computing; k-means clustering; Micro-genetic algorithm; Resource management,Dynamic Threshold,CPU,Minimum Migration Time (MMT) + Random Selection (RS),"RAM, Bandwidth",Metaheuristic (µGA),Power Consumption,Simulation,CloudSim,"{
+""Number of PMs"": [800],
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": -1,
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1175],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 1700, 3750, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Synthetical,"Energy Consumption, Number of VM Migrations, Overall SLA Violation, Makespan",VMs are selected individually,VMP,31
+Energy-aware VM Consolidation in Cloud Data Centers Using Utilization Prediction Model,Fahimeh Farahnakian; Tapio Pahikkala; Pasi Liljeberg; Juha Plosila; Nguyen Trung Hieu; Hannu Tenhunen,IEEE Transactions on Cloud Computing,VM consolidation; linear regression; k-nearest neighbor regression; energy-efficiency; SLA; green computing,Static Threshold,"CPU, RAM",Minimum Migration Time (MMT) + Maximum Load (MaxL) + Minimum Load (MinL),"CPU, RAM, Bandwidth",Prediction Model (LR + KNN),Resource Utilization Ratio,Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": 2,
+""Distribution of PMs"": ""Available"",
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4],
+""Amount of Storage (in GB)"": [1],
+""Amount of Bandwidth (in Gbps)"": -1
+}","{
+""Number of VMs"": [265, 1600],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": -1,
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [850, 1700, 3750, 613],
+""Amount of Storage (in GB)"": -1,
+""Amount of Bandwidth (in Mbps)"": -1
+}",Planet Lab + Google Cluster Data,"Energy Consumption, Number of VM Migrations, SLA Violation % (SLAV)",VMs are selected individually,PMC + VMS,27
+A learning-based approach for virtual machine placement in cloud data centers,Mostafa Ghobaei‐Arani;Ali Rahmanian;Mahboubeh Shamsi;Abdolreza Rasouli‐Kenari,International Journal of Communication Systems,cloud computing; energy consumption; learning automata; virtual machine placement; virtualization,Static Threshold + Dynamic Threshold + Prediction Model (LR + WMA),CPU,Minimum Migration Time (MMT) + Maximum Correlation (MC) + Maximum Requested Resources (MRR) + Minimum Downtime Migration (MDM),"CPU, RAM, Bandwidth",Heuristic (MBFD) + Prediction Model (EPA + LA),"CPU, Power Consumption",Simulation,CloudSim,"{
+""Number of PMs"": -1,
+""Number of PM Types"": 2,
+""Distribution of PMs"": -1,
+""Number of CPU Cores"": [2],
+""Frequency of CPU (in MIPS)"": [1860, 2660],
+""Amount of RAM (in GB)"": [4.096],
+""Amount of Storage (in GB)"": [1],
+""Amount of Bandwidth (in Gbps)"": [1]
+}","{
+""Number of VMs"": [1052, 898, 1061, 1516, 1078, 1463, 1358, 1233, 1054, 1033],
+""Number of VM Types"": 4,
+""Distribution of VMs"": -1,
+""Number of CPU Cores"": [1],
+""Frequency of CPU (in MIPS)"": [500, 1000, 2000, 2500],
+""Amount of RAM (in MB)"": [870, 1740, 613],
+""Amount of Storage (in GB)"": [2.5],
+""Amount of Bandwidth (in Mbps)"": [100]
+}",Not available,"Energy Consumption, Number of VM Migrations, SLA Violation % (SLAV), Number of PM Shutdowns",VMs are selected individually,VMP,29

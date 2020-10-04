@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyter = "*"
+jupyterlab = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+seaborn = "*"
+wordcloud = "*"
+statsmodels = "*"
+ipympl = "*"
+matplotlib-venn = "*"
+
+[requires]
+python_version = "3.8"

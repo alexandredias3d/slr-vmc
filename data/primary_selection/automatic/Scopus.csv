@@ -1,0 +1,123 @@
+author,title,year,source
+"Li, C., Feng, D., Hua, Y., Qin, L.",efficient live virtual machine migration for memory write-intensive workloads,2019,Future Generation Computer Systems
+"Tarahomi, M., Izadi, M.",a prediction-based and power-aware virtual machine allocation algorithm in three-tier cloud data centers,2019,International Journal of Communication Systems
+"Palanikkumar, D., Priya, S.",brain storm optimization graph theory (bsogt) and energy resource aware virtual network mapping (ervnm) for medical image system in cloud,2019,Journal of Medical Systems
+"Mekala, M.S., Viswanathan, P.",energy-efficient virtual machine selection based on resource ranking and utilization factor approach in cloud computing for iot,2019,Computers and Electrical Engineering
+"Sharma, O., Saini, H.",energy and sla efficient virtual machine placement in cloud environment using non-dominated sorting genetic algorithm,2019,International Journal of Information Security and Privacy
+"Maiti, P., Shukla, J., Sahoo, B., Turuk, A.K.",mathematical modeling of qos-aware fog computing architecture for iot services,2019,Advances in Intelligent Systems and Computing
+"Smimite, O., Afdel, K.",impact of hybrid virtualization using vm and container on live migration and cloud performance,2019,Advances in Intelligent Systems and Computing
+"Dewangan, B.K., Agarwal, A., Venkatadri, M., Pasricha, A.",energy-aware autonomic resource scheduling framework for cloud,2019,"International Journal of Mathematical, Engineering and Management Sciences"
+"Kaur, J., Kaur, K.",fault aware improved clustering algorithm to improve execution time of the cloudlets,2019,Communications in Computer and Information Science
+"Gupta, I., Gupta, S., Choudhary, A., Jana, P.K.",a hybrid meta-heuristic approach for load balanced workflow scheduling in iaas cloud,2019,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+"Zhou, Z., Yu, J., Li, F., Yang, F.",virtual machine migration algorithm for energy efficiency optimization in cloud computing,2018,Concurrency Computation
+"Kanthimathi, M., Vijayakumar, D.",an enhanced approach of genetic and ant colony based load balancing in cloud environment,2018,ICSNS 2018 - Proceedings of IEEE International Conference on Soft-Computing and Network Security
+"Yang, L., Guan, X., Wu, J., Dai, S.",a multi-layered distributed cloud network for cyber-physical energy system,2018,IEEE International Conference on Automation Science and Engineering
+"Ismaeel, S., Karim, R., Miri, A.",proactive dynamic virtual-machine consolidation for energy conservation in cloud data centres,2018,Journal of Cloud Computing
+"El Kafhali, S., Salah, K.",modeling and analysis of performance and energy consumption in cloud data centers,2018,Arabian Journal for Science and Engineering
+"Sutha, K., Nawaz, G.M.K.",energy and service level agreement aware resource allocation heuristics for cloud data centers,2018,KSII Transactions on Internet and Information Systems
+"Kaaouache, M.A., Bouamama, S.",an energy-efficient vm placement method for cloud data centers using a hybrid genetic algorithm,2018,Journal of Systems and Information Technology
+"Francis, A.O., Emmanuel, B., Zhang, D., Zheng, W., Qin, Y., Zhang, D.",exploration of secured workflow scheduling models in cloud environment: a survey,2018,"Proceedings - 2018 6th International Conference on Advanced Cloud and Big Data, CBD 2018"
+"Wang, J., Sun, X., Song, W., Tang, L.",resource scheduling method based on bayes for cloud computing,2018,Journal of Information Hiding and Multimedia Signal Processing
+"Shojaei, K., Safi-Esfahani, F., Ayat, S.",vmdfs: virtual machine dynamic frequency scaling framework in cloud computing,2018,Journal of Supercomputing
+"Carrega, A., Portomauro, G., Repetto, M., Robino, G.",boosting energy efficiency and quality of service through orchestration tools,2018,IEEE Cloud Computing
+"Verma, J.K., Kumar, S., Kaiwartya, O., Cao, Y., Lloret, J., Katti, C.P., Kharel, R.",enabling green computing in cloud environments: network virtualization approach toward 5g support,2018,Transactions on Emerging Telecommunications Technologies
+"Jiang, H.-P., Chen, W.-M.",self-adaptive resource allocation for energy-aware virtual machine placement in dynamic computing cloud,2018,Journal of Network and Computer Applications
+"Djennane, N., Aoudjit, R., Bouzefrane, S.",energy-efficient algorithm for load balancing and vms reassignment in data centers,2018,"Proceedings - 2018 IEEE 6th International Conference on Future Internet of Things and Cloud Workshops, W-FiCloud 2018"
+"Shaw, S.B., Singh, A.K., Tripathi, S.",optimum utilization of resources through restricted virtual machine migration and efficient vm placement in cloud data center,2018,International Journal of Distributed Systems and Technologies
+"Witanto, J.N., Lim, H., Atiquzzaman, M.",adaptive selection of dynamic vm consolidation algorithm using neural network for cloud resource management,2018,Future Generation Computer Systems
+"Younis, A., Tran, T.X., Pompili, D.",bandwidth and energy-aware resource allocation for cloud radio access networks,2018,IEEE Transactions on Wireless Communications
+"Mishra, S.K., Puthal, D., Rodrigues, J.J.P.C., Sahoo, B., Dutkiewicz, E.",sustainable service allocation using a metaheuristic technique in a fog server for industrial applications,2018,IEEE Transactions on Industrial Informatics
+"Wu, X., Han, J.",threshold-based energy-efficient vm scheduling in cloud datacenters [云数据中心基于阈值的虚拟机迁移节能调度算法],2018,Huazhong Keji Daxue Xuebao (Ziran Kexue Ban)/Journal of Huazhong University of Science and Technology (Natural Science Edition)
+"Altahat, M.A., Agarwal, A., Goel, N., Zaman, M.",analysis and comparison of live virtual machine migration methods,2018,"Proceedings - 2018 IEEE 6th International Conference on Future Internet of Things and Cloud, FiCloud 2018"
+"Kamran, Nazir, B.",qos-aware vm placement and migration for hybrid cloud infrastructure,2018,Journal of Supercomputing
+"Zhou, Z., Abawajy, J., Chowdhury, M., Hu, Z., Li, K., Cheng, H., Alelaiwi, A.A., Li, F.",minimizing sla violation and power consumption in cloud data centers using adaptive energy-aware algorithms,2018,Future Generation Computer Systems
+"Ataie, E., Entezari-Maleki, R., Etesami, S.E., Egger, B., Ardagna, D., Movaghar, A.",power-aware performance analysis of self-adaptive resource management in iaas clouds,2018,Future Generation Computer Systems
+"Gupta, M.K., Jain, A., Amgoth, T.",power and resource-aware virtual machine placement for iaas cloud,2018,Sustainable Computing: Informatics and Systems
+"Kumar, A., Kumar, R., Sharma, A.",equal: energy and qos aware resource allocation approach for clouds,2018,Computing and Informatics
+"Aryania, A., Aghdasi, H.S., Khanli, L.M.",energy-aware virtual machine consolidation algorithm based on ant colony system,2018,Journal of Grid Computing
+"Nasim, R., Zola, E., Kassler, A.J.",robust optimization for energy-efficient virtual machine consolidation in modern datacenters,2018,Cluster Computing
+"Luo, H.",a distributed management method based on the artificial fish-swarm model in cloud computing environment,2018,International Journal of Wireless Information Networks
+"Mohamadi Bahram Abadi, R., Rahmani, A.M., Alizadeh, S.H.",server consolidation techniques in virtualized data centers of cloud environments: a systematic literature review,2018,Software - Practice and Experience
+"Liu, Y., Gao, J., Yao, Y.",research on virtual machine migration algorithm for cloud data center,2018,"2017 International Conference on Computer Systems, Electronics and Control, ICCSEC 2017"
+"Qurani, M.O., Singh, R.",load balancing for virtual resources management in data center,2018,"Proceedings of the 8th International Conference Confluence 2018 on Cloud Computing, Data Science and Engineering, Confluence 2018"
+"Liu, S., Jia, W., Pan, X.",fault-tolerant feedback virtual machine deployment based on user-personalized requirements,2018,Frontiers of Computer Science
+"Xu, H., Wang, H., Luo, L., Qiu, X., Meng, S., Guo, X.",modeling approach combining performance and reliability for mobile cloud system,2018,International Journal of Performability Engineering
+"Segalini, A., Pacheco, D.L., Jacquemart, Q.",towards massive consolidation in data centers with seamless,2018,"Proceedings - 18th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing, CCGRID 2018"
+"Carpio, F., Jukan, A., Pries, R.",balancing the migration of virtual network functions with replications in data centers,2018,"IEEE/IFIP Network Operations and Management Symposium: Cognitive Management in a Cyber World, NOMS 2018"
+"Babu, K.R.R., Samuel, P.",interference aware prediction mechanism for auto scaling in cloud,2018,Computers and Electrical Engineering
+"Chang, Y., Gu, C., Luo, F., Fan, G., Fu, W.",energy efficient resource selection and allocation strategy for virtual machine consolidation in cloud datacenters,2018,IEICE Transactions on Information and Systems
+"Askari, L., Hmaity, A., Musumeci, F., Tornatore, M.",virtual-network-function placement for dynamic service chaining in metro-area networks,2018,"22nd Conference on Optical Network Design and Modelling, ONDM 2018 - Proceedings"
+"Xie, L., Chen, S., Shen, W., Miao, H.",a novel self-adaptive vm consolidation strategy using dynamic multi-thresholds in iaas clouds,2018,Future Internet
+[No author name available],sigmetrics 2018 - abstracts of the 2018 acm international conference on measurement and modeling of computer systems,2018,SIGMETRICS 2018 - Abstracts of the 2018 ACM International Conference on Measurement and Modeling of Computer Systems
+"Monshizadeh Naeen, H., Zeinali, E., Toroghi Haghighat, A.",a stochastic process-based server consolidation approach for dynamic workloads in cloud data centers,2018,Journal of Supercomputing
+"Venkata Krishna, J., Apparao Naidu, G., Upadhayaya, N.",a lion-whale optimization-based migration of virtual machines for data centers in cloud computing,2018,International Journal of Communication Systems
+"Ghobaei-Arani, M., Rahmanian, A.A., Shamsi, M., Rasouli-Kenari, A.",a learning-based approach for virtual machine placement in cloud data centers,2018,International Journal of Communication Systems
+"Sudheer, M.S., Reddy, K.G., Sree, P.K., Raju, V.P.",an effective analysis on various scheduling algorithms in cloud computing,2018,"Proceedings of the International Conference on Inventive Computing and Informatics, ICICI 2017"
+"Batra, G., Singh, H., Gupta, I., Singh, A.K.",best fit sharing and power aware (bfspa) algorithm for vm placement in cloud environment,2018,"Proceedings - 2017 3rd International Conference on Advances in Computing, Communication and Automation (Fall), ICACCA 2017"
+"Jain, P., Sharma, S.K.",a systematic review of nature inspired load balancing algorithm in heterogeneous cloud computing environment,2018,"2017 Conference on Information and Communication Technology, CICT 2017"
+"Sarvabhatla, M., Konda, S., Vorugunti, C.S., Babu, M.M.N.",a dynamic and energy efficient greedy scheduling algorithm for cloud data centers,2018,"Proceedings - 2017 IEEE International Conference on Cloud Computing in Emerging Markets, CCEM 2017"
+"Patel, N., Patel, H.",an approach for detection of overloaded host to consolidate workload in cloud datacenter,2018,International Journal of Grid and High Performance Computing
+"Sultanpure, K.A., Reddy, L.S.S.",an energy aware resource utilization framework to control traffic in cloud network and overloads,2018,International Journal of Electrical and Computer Engineering
+"Li, Z.",an adaptive overload threshold selection process using markov decision processes of virtual machine in cloud data center,2018,Cluster Computing
+"Altomare, A., Cesario, E., Vinci, A.","data analytics for energy-efficient clouds: design, implementation and evaluation",2018,"International Journal of Parallel, Emergent and Distributed Systems"
+"Rahmanian, A.A., Horri, A., Dastghaibyfard, G.",toward a hierarchical and architecture-based virtual machine allocation in cloud data centers,2018,International Journal of Communication Systems
+"Ranjbari, M., Akbari Torkestani, J.",a learning automata-based algorithm for energy and sla efficient consolidation of virtual machines in cloud data centers,2018,Journal of Parallel and Distributed Computing
+"Li, Z., Yan, C., Yu, L., Yu, X.",energy-aware and multi-resource overload probability constraint-based virtual machine dynamic consolidation method,2018,Future Generation Computer Systems
+"Malekloo, M.-H., Kara, N., El Barachi, M.",an energy efficient and sla compliant approach for resource allocation and consolidation in cloud computing environments,2018,Sustainable Computing: Informatics and Systems
+"Dad, D., Belalem, G.",efficient allocation of vms in servers of data center to reduce energy consumption,2018,"Proceedings of 2017 International Conference of Cloud Computing Technologies and Applications, CloudTech 2017"
+[No author name available],"2017 10th international conference on contemporary computing, ic3 2017",2018,"2017 10th International Conference on Contemporary Computing, IC3 2017"
+"Han, G., Que, W., Jia, G., Zhang, W.",resource-utilization-aware energy efficient server consolidation algorithm for green computing in iiot,2018,Journal of Network and Computer Applications
+"Chang, B.-J., Lee, Y.-W., Liang, Y.-H.",reward-based markov chain analysis adaptive global resource management for inter-cloud computing,2018,Future Generation Computer Systems
+"Midya, S., Roy, A., Majumder, K., Phadikar, S.",multi-objective optimization technique for resource allocation and task scheduling in vehicular cloud architecture: a hybrid adaptive nature inspired approach,2018,Journal of Network and Computer Applications
+"Marotta, A., Avallone, S., Kassler, A.",a joint power efficient server and network consolidation approach for virtualized data centers,2018,Computer Networks
+"Fang, J., Zhou, L., Wang, M.",virtual machine live migration strategy in big data information system,2018,Communications in Computer and Information Science
+"Jiyani, A., Mahrishi, M., Meena, Y., Singh, G.",nam: a nearest acquaintance modeling approach for vm allocation using r-tree,2018,International Journal of Computers and Applications
+"Salimian, L., Safi-Esfahani, F.",energy-efficient placement of virtual machines in cloud data centres based on fuzzy decision making,2018,International Journal of Grid and Utility Computing
+"Borhani, A.H., Hung, T., Lee, B.-S., Qin, Z.",power-network aware vm migration heuristics for multi-tier web applications,2018,Cluster Computing
+"Secinti, C., Ovatman, T.",fault tolerant vm consolidation for energy-efficient cloud environments,2018,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+"Alsadie, D., Tari, Z., Alzahrani, E.J., Alshammari, A.",life-mp: online virtual machine consolidation with multiple resource usages in cloud environments,2018,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+"Nadeem, H.A., Fadel, M.A., Elazhary, H.",priority-aware virtual machine selection algorithm in dynamic consolidation,2018,International Journal of Advanced Computer Science and Applications
+"Shidik, G.F., Azhari, A., Mustofa, K.",k-mma vm selection in dynamic vm consolidation for improving energy efficiency at cloud data centre,2018,International Journal of Communication Networks and Distributed Systems
+"Rafeeq, M., Sunil Kumar, C., Subhash Chandra, N.",road traffic management system with load balancing on cloud using vm migration technique,2018,Advances in Intelligent Systems and Computing
+"Rafeeq, M., Sunil Kumar, C., Subhash Chandra, N.",a dynamic consolidation of virtual machines (vms) for efficiency in cloud data centers,2018,Journal of Advanced Research in Dynamical and Control Systems
+"Arianyan, E., Taheri, H., Sharifian, S., Tarighi, M.",new six-phase on-line resource management process for energy and sla efficient consolidation in cloud data centers,2018,International Arab Journal of Information Technology
+"Ragmani, A., El Omri, A., Abhgour, N., Moussaid, K., Rida, M.",a novel green service level agreement for cloud computing using fuzzy logic,2018,CLOSER 2018 - Proceedings of the 8th International Conference on Cloud Computing and Services Science
+"Diouani, S., Medromi, H.",towards an optimized energy consumption of resources in cloud data centers,2018,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+"Galaviz-Alejos, L.-A., Armenta-Cano, F., Tchernykh, A., Radchenko, G., Drozdov, A.Y., Sergiyenko, O., Yahyapour, R.",bi-objective heterogeneous consolidation in cloud computing,2018,Communications in Computer and Information Science
+"Yadav, R., Zhang, W., Li, K., Liu, C., Shafiq, M., Karn, N.K.",an adaptive heuristic for managing energy consumption and overloaded hosts in a cloud data center,2018,Wireless Networks
+"Barlaskar, E., Singh, Y.J., Issac, B.",enhanced cuckoo search algorithm for virtual machine placement in cloud data centres,2018,International Journal of Grid and Utility Computing
+"Ouammou, A., Hanini, M., El Kafhali, S., Ben Tahar, A.",energy consumption and cost analysis for data centers with workload control,2018,Advances in Intelligent Systems and Computing
+"Telenyk, S., Zharikov, E., Rolik, O.",consolidation of virtual machines using stochastic local search,2018,Advances in Intelligent Systems and Computing
+"Hosseini Shirvani, M., Rahmani, A.M., Sahafi, A.",a survey study on virtual machine migration and server consolidation techniques in dvfs-enabled cloud datacenter: taxonomy and challenges,2018,Journal of King Saud University - Computer and Information Sciences
+"Ouammou, A., Tahar, A.B., Hanini, M., Kafhali, S.E.",modeling and analysis of quality of service and energy consumption in cloud environment,2018,International Journal of Computer Information Systems and Industrial Management Applications
+"Alshathri, S., Ghita, B., Clarke, N.",sharing with live migration energy optimization scheduler for cloud computing data centers,2018,Future Internet
+"Sharma, O., Saini, H.",energy efficient virtual machine consolidation for cloud data centres using analytic hierarchy process,2018,International Journal of Advanced Intelligence Paradigms
+"Monteiro, A., Loques, O.",quantum virtual machine: power and performance management in virtualized web servers clusters,2018,Cluster Computing
+"Patel, N., Patel, H.",energy efficient resource allocation during initial mapping of virtual machines to servers in cloud datacenters,2018,International Journal of Distributed Systems and Technologies
+"Polepally, V., Shahu Chtrapati, K.",energy aware gsa-based load balancing method in cloud computing environment,2018,Advances in Intelligent Systems and Computing
+"Sayadnavrad, M.H., Toroghi Haghighat, A., Rahmani, A.M.",a reliable energy-aware approach for dynamic virtual machine consolidation in cloud data centers,2018,Journal of Supercomputing
+"Banerjee, S., Chowdhury, A., Mukherjee, S., Biswas, U.",an approach towards development of a new cloudlet allocation policy with dynamic time quantum,2018,Automatic Control and Computer Sciences
+"Li, H., Li, T., Shuhua, Z.",energy-performance optimisation for the dynamic consolidation of virtual machines in cloud computing,2018,International Journal of Services Operations and Informatics
+"Bajoria, V., Katal, A.",camqu: a cloudlet allocation strategy using multilevel queue and user factor,2018,Communications in Computer and Information Science
+"Agarwal, M., Srivastava, G.M.S.",a cuckoo search algorithm-based task scheduling in cloud computing,2018,Advances in Intelligent Systems and Computing
+"Mohazabiyeh, A.R., Amirizadeh, K.H.",energy-aware adaptive four thresholds technique for optimal virtual machine placement,2018,International Journal of Electrical and Computer Engineering
+"Ragmani, A., El Omri, A., Abhgour, N., Moussaid, K., Rida, M.",energy efficiency policies for smart digital cloud environment based on heuristics algorithms,2018,CLOSER 2018 - Proceedings of the 8th International Conference on Cloud Computing and Services Science
+"Askarizade Haghighi, M., Maeen, M., Haghparast, M.",an energy-efficient dynamic resource management approach based on clustering and meta-heuristic algorithms in cloud computing iaas platforms: energy efficient dynamic cloud resource management,2018,Wireless Personal Communications
+"Patel, N., Patel, H.",an efficient vm selection strategy for minimization of migration in cloud environment,2018,Communications in Computer and Information Science
+"Polepally, V., Chatrapati, K.S.",degsa-vmm: dragonfly-based exponential gravitational search algorithm to vmm strategy for load balancing in cloud computing,2018,Kybernetes
+"Kollu, A., Sucharita, V.",energy-aware multi-objective differential evolution in cloud computing,2018,Advances in Intelligent Systems and Computing
+"Thakkar, R., Trivedi, R., Bhavsar, M.",experimenting with energy efficient vm migration in iaas cloud: moving towards green cloud,2018,"Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering, LNICST"
+"Atiewi, S., Yussof, S., Rusli, M.E.B., Zalloum, M.",a power saver scheduling algorithm using dvfs and dns techniques in cloud computing data centres,2018,International Journal of Grid and Utility Computing
+"Zhang, Y., Wen, H., Zhou, S., Wang, Z., Wang, R., Lu, J.",eedvmi: energy-efficient dynamic virtual machines integration,2018,Mobile Networks and Applications
+"Kumar, A., Kumar, R., Sharma, A.",energy aware resource allocation for clouds using two level ant colony optimization,2018,Computing and Informatics
+"Gourisaria, M.K., Patra, S.S., Khilar, P.M.",energy saving task consolidation technique in cloud centers with resource utilization threshold,2018,Advances in Intelligent Systems and Computing
+"Narendrababu Reddy, G., Kumar, S.P.",multi objective task scheduling algorithm for cloud computing using whale optimization technique,2018,Communications in Computer and Information Science
+"Wang, B., Song, Y., Sun, Y., Liu, J.",analysis model for server consolidation of virtualized heterogeneous data centers providing internet services,2018,Cluster Computing
+"Mishra, J., Sheetlani, J., Reddy, K.H.K., Roy, D.S.",a novel edge-supported cost-efficient resource management approach for smart grid system,2018,Advances in Intelligent Systems and Computing
+"Giacobbe, M., Celesti, A., Fazio, M., Villari, M., Puliafito, A.",re-powering service provisioning in federated cloud ecosystems: an algorithm combining energy sustainability and cost-saving strategies,2018,Communications in Computer and Information Science
+"Sun, T., Tao, Y., Tang, R.",an algorithm towards energy-efficient scheduling for real-time tasks under cloud computing environment,2018,Communications in Computer and Information Science
+"Hindle, A.","if you bill it, they will pay: energy consumption in the cloud will be irrelevant until directly billed for",2018,CEUR Workshop Proceedings
+"Gao, Y., Wang, L., Xie, Z., Guo, W., Zhou, J.",energy-efficient and quality of experience-aware resource provisioning for massively multiplayer online games in the cloud,2018,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+"Meshkati, J., Safi-Esfahani, F.",energy-aware resource utilization based on particle swarm optimization and artificial bee colony algorithms in cloud computing,2018,Journal of Supercomputing
+[No author name available],"4th international symposium on ubiquitous networking, unet 2018",2018,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+[No author name available],"2nd international conference on smart trends for information technology and computer communications, smartcom 2017",2018,Communications in Computer and Information Science

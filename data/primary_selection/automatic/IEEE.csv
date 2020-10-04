@@ -1,0 +1,58 @@
+author,title,year,source
+Y. Liu; X. Sun; W. Wei; W. Jing,enhancing energy-efficient and qos dynamic virtual machine consolidation method in cloud environment,2018,IEEE Access
+T. Badraa; K. Kinoshita,an energy efficient non-live virtual machine migration,2018,2018 IEEE 7th International Conference on Cloud Networking (CloudNet)
+N. K. Sharma; P. Sharma; R. M. R. Guddeti,energy efficient quality of service aware virtual machine migration in cloud computing,2018,2018 4th International Conference on Recent Advances in Information Technology (RAIT)
+H. Cao; H. Sun; M. Sheng; Y. Shi; J. Li,a qos-guaranteed energy-efficient vm dynamic migration strategy in cloud data centers,2018,2018 10th International Conference on Wireless Communications and Signal Processing (WCSP)
+H. Wang; H. Tianfield,energy-aware dynamic virtual machine consolidation for cloud datacenters,2018,IEEE Access
+A. Pahlevan; X. Qu; M. Zapater; D. Atienza,integrating heuristic and machine-learning methods for efficient virtual machine allocation in data centers,2018,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+P. C. Nayak; D. Garg; A. k. Shakva; P. Saini,a research paper of existing live vm migration and a hybrid vm migration approach in cloud computing,2018,2018 2nd International Conference on Trends in Electronics and Informatics (ICOEI)
+R. Yadav; W. Zhang; O. Kaiwartya; P. R. Singh; I. A. Elgendy; Y. Tian,adaptive energy-aware algorithms for minimizing energy consumption and sla violation in cloud computing,2018,IEEE Access
+S. N. Mthunzi; E. Benkhelifa; M. A. Alsmirat; Y. Jararweh,analysis of vm communication for vm-based cloud security systems,2018,2018 Fifth International Conference on Software Defined Systems (SDS)
+K. D. Rathod; M. R. Desai,a novel approach for resource provisioning in cloud using load comfort index and vm demand: a preview,2018,2018 3rd International Conference for Convergence in Technology (I2CT)
+K. P. N. Jayasena; L. Li; M. A. Elaziz; S. Xiong; J. Xiang,optimizing the energy efficient vm consolidation by a multi-objective algorithm,2018,2018 IEEE 22nd International Conference on Computer Supported Cooperative Work in Design ((CSCWD))
+D. Alsadie; E. J. Alzahrani; N. Sohrabi; Z. Tari; A. Y. Zomaya,dtfa: a dynamic threshold-based fuzzy approach for power-efficient vm consolidation,2018,2018 IEEE 17th International Symposium on Network Computing and Applications (NCA)
+H. Mandora; D. Patel; N. Dubey,migration and cooling aware approach for virtual machine spreading in data centers,2018,2018 3rd International Conference for Convergence in Technology (I2CT)
+X. Li; P. Garraghan; X. Jiang; Z. Wu; J. Xu,holistic virtual machine scheduling in cloud datacenters towards minimizing total energy,2018,IEEE Transactions on Parallel and Distributed Systems
+A. Tarafdar; S. Khatua; R. K. Das,qos aware energy efficient vm consolidation techniques for a virtualized data center,2018,2018 IEEE/ACM 11th International Conference on Utility and Cloud Computing (UCC)
+M. Aldossary; K. Djemame,performance and energy-based cost prediction of virtual machines auto-scaling in clouds,2018,2018 44th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)
+S. K. Addya; A. K. Turuk; B. Sahoo; A. Satpathy; M. Sarkar,a game theoretic approach to estimate fair cost of vm placement in cloud data center,2018,IEEE Systems Journal
+L. Li; J. Dong; D. Zuo; J. Wu,sla-aware and energy-efficient vm consolidation in cloud data centers using robust linear regression prediction model,2019,IEEE Access
+U. M. Joda; A. S. Ismail; A. Y. Gital; A. Aliyu,energy-aware distributed multi-cloud flower pollination optimization scheme,2018,2018 Seventh ICT International Student Project Conference (ICT-ISPC)
+A. Pahlevan; Y. M. Qureshi; M. Zapater; A. Bartolini; D. Rossi; L. Benini; D. Atienza,energy proportionality in near-threshold computing servers and cloud data centers: consolidating or not?,2018,"2018 Design, Automation & Test in Europe Conference & Exhibition (DATE)"
+S. Lu; J. Chen,host overloading detection based on ewma algorithm in cloud computing environment,2018,2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)
+E. Baccarelli; M. Scarpiniti; A. Momenzadeh,fog-supported delay-constrained energy-saving live migration of vms over multipath tcp/ip 5g connections,2018,IEEE Access
+F. Farahnakian; T. Pahikkala; P. Liljeberg; J. Plosila; N. T. Hieu; H. Tenhunen,energy-aware vm consolidation in cloud data centers using utilization prediction model,2018,IEEE Transactions on Cloud Computing
+S. B. Melhem; A. Agarwal; N. Goel; M. Zaman,markov prediction model for host load detection and vm placement in live migration,2018,IEEE Access
+J. Wang; Y. Gu; Z. He; M. Qiu,a resource scheduling algorithm based on maximum discrete vm in heterogeneity cloud,2018,"2018 IEEE 4th International Conference on Big Data Security on Cloud (BigDataSecurity), IEEE International Conference on High Performance and Smart Computing, (HPSC) and IEEE International Conference on Intelligent Data and Security (IDS)"
+S. Mashhadi Moghaddam; S. Fotuhi Piraghaj; M. O’Sullivan; C. Walker; C. Unsworth,energy-efficient and sla-aware virtual machine selection algorithm for dynamic resource allocation in cloud data centers,2018,2018 IEEE/ACM 11th International Conference on Utility and Cloud Computing (UCC)
+C. Hu; Y. Deng; G. Min; P. Huang; X. Qin,qos promotion in energy-efficient datacenters through peak load scheduling,2018,IEEE Transactions on Cloud Computing
+I. Hwang; M. Pedram,"hierarchical, portfolio theory-based virtual machine consolidation in a compute cloud",2018,IEEE Transactions on Services Computing
+S. Rahman; A. Gupta; M. Tornatore; B. Mukherjee,dynamic workload migration over backbone network to minimize data center electricity cost,2018,IEEE Transactions on Green Communications and Networking
+T. H. Nguyen; M. Di Francesco; A. Yla-Jaaski,virtual machine consolidation with multiple usage prediction for energy-efficient cloud data centers,2018,IEEE Transactions on Services Computing
+P. Cristian; P. Eugen; A. Marcel; C. Pop; T. Cioara; I. Anghel; I. Salomie,coolcloudsim: integrating cooling system models in cloudsim,2018,2018 IEEE 14th International Conference on Intelligent Computer Communication and Processing (ICCP)
+Z. Zhou; J. Feng; C. Zhang; Z. Chang; Y. Zhang; K. M. S. Huq,sagecell: software-defined space-air-ground integrated moving cells,2018,IEEE Communications Magazine
+G. Sun; D. Liao; D. Zhao; Z. Xu; H. Yu,live migration for multiple correlated virtual machines in cloud-based data centers,2018,IEEE Transactions on Services Computing
+K. P. N. Jayasena; L. Li; M. Abd Elaziz; S. Xiong,multi-objective energy efficient resource allocation using virus colony search (vcs) algorithm,2018,2018 IEEE 20th International Conference on High Performance Computing and Communications; IEEE 16th International Conference on Smart City; IEEE 4th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+O. Rolik; E. Zharikov; A. Koval; S. Telenyk,dynamie management of data center resources using reinforcement learning,2018,"2018 14th International Conference on Advanced Trends in Radioelecrtronics, Telecommunications and Computer Engineering (TCSET)"
+A. Mosa; R. Sakellariou,dynamic tuning for parameter-based virtual machine placement,2018,2018 17th International Symposium on Parallel and Distributed Computing (ISPDC)
+J. Yao; N. Ansari,qos-aware fog resource provisioning and mobile device power control in iot networks,2018,IEEE Transactions on Network and Service Management
+V. Bajoria; A. Katal; Y. Agarwal,an energy aware policy for mapping and migrating virtual machines in cloud environment using migration factor,2018,"2018 8th International Conference on Cloud Computing, Data Science & Engineering (Confluence)"
+M. Daraghmeh; S. Bani Melhem; A. Agarwal; N. Goel; M. Zaman,linear and logistic regression based monitoring for resource management in cloud networks,2018,2018 IEEE 6th International Conference on Future Internet of Things and Cloud (FiCloud)
+J. Roque; L. Chauvel; M. Aloqaily; B. Kantarci,a feasibility study on sustainability-driven infrastructure management in cloud data centers,2018,2018 IEEE Canadian Conference on Electrical & Computer Engineering (CCECE)
+M. Xu; A. Nadjaran Toosi; R. Buyya,ibrownout: an integrated approach for managing energy and brownout in container-based clouds,2018,IEEE Transactions on Sustainable Computing
+N. Yamanaka; S. Okamoto; M. Hirono; Y. Imakiire; W. Muro; T. Sato; E. Oki; A. Fumagalli; M. Veeraraghavan,application-triggered automatic distributed cloud/network resource coordination by optically networked inter/intra data center [invited],2018,IEEE/OSA Journal of Optical Communications and Networking
+J. Yao; N. Ansari,qos-aware joint bbu-rrh mapping and user association in cloud-rans,2018,IEEE Transactions on Green Communications and Networking
+T. H. Duong-Ba; T. Nguyen; B. Bose; T. T. Tran,a dynamic virtual machine placement and migration scheme for data centers,2018,IEEE Transactions on Services Computing
+R. S. Alhumaima; R. K. Ahmed; H. S. Al-Raweshidy,maximizing the energy efficiency of virtualized c-ran via optimizing the number of virtual machines,2018,IEEE Transactions on Green Communications and Networking
+N. Sharma; R. M. Guddeti,multi-objective energy efficient virtual machines allocation at the cloud data center,2018,IEEE Transactions on Services Computing
+L. Gao; M. Moh,joint computation offloading and prioritized scheduling in mobile edge computing,2018,2018 International Conference on High Performance Computing & Simulation (HPCS)
+Y. Laili; F. Tao; F. Wang; L. Zhang; T. Lin,an iterative budget algorithm for dynamic virtual machine consolidation under cloud computing environment (revised december 2017),2018,IEEE Transactions on Services Computing
+J. Son; R. Buyya,priority-aware vm allocation and network bandwidth provisioning in software-defined networking (sdn)-enabled clouds,2018,IEEE Transactions on Sustainable Computing
+N. Li; H. Jiang; D. Feng; Z. Shi,storage sharing optimization under constraints of slo compliance and performance variability,2018,IEEE Transactions on Services Computing
+C. Xu; X. Ma; R. Shea; H. Wang; J. Liu,enhancing performance and energy efficiency for hybrid workloads in virtualized cloud environment,2018,IEEE Transactions on Cloud Computing
+S. Wang; A. Zhou; R. Bao; W. Chou; S. S. Yau,towards green service composition approach in the cloud,2018,IEEE Transactions on Services Computing
+H. Arif; P. K. Sahoo,threshold scheme approach to balance virtual machines load in private cloud,2018,2018 International Conference on Applied Engineering (ICAE)
+M. Daraghmeh; S. B. Melhem; A. Agarwal; N. Goel; M. Zaman,regression-based dynamic provisioning and monitoring for responsive resources in cloud infrastructure networks,2018,2018 IEEE/ACS 15th International Conference on Computer Systems and Applications (AICCSA)
+X. Sun; N. Ansari,green cloudlet network: a sustainable platform for mobile cloud computing,2018,IEEE Transactions on Cloud Computing
+V. D. Justafort; R. Beaubrun; S. Pierre,on the carbon footprint optimization in an intercloud environment,2018,IEEE Transactions on Cloud Computing
+U. u. Rahman; K. Bilal; A. Erbad; O. Khalid; S. U. Khan,nutshell—simulation toolkit for modeling data center networks and cloud computing,2019,IEEE Access

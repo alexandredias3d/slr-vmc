@@ -1,0 +1,83 @@
+title,qa1,qa2,qa3,qa4,qa5,qa6,qa7,qa8,qa9,qa10,score
+A prediction-based and power-aware virtual machine allocation algorithm in three-tier cloud data centers,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,Yes,9.5
+DTFA: A Dynamic Threshold-based Fuzzy Approach for Power-efficient VM Consolidation,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,8
+Virtual machine migration algorithm for energy efficiency optimization in cloud computing,Yes,Partially,Yes,Yes,Yes,Yes,No,No,No,Yes,6.5
+Linear and Logistic Regression Based Monitoring for Resource Management in Cloud Networks,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,Yes,Yes,9.5
+Energy-Aware Virtual Machine Consolidation Algorithm Based on Ant Colony System,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Partially,Yes,7.5
+Resource scheduling method based on bayes for cloud computing,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,No,Yes,8.5
+Best Fit Sharing and Power Aware (BFSPA) Algorithm for VM placement in cloud environment,Yes,Partially,No,No,Yes,Yes,Yes,No,Partially,Yes,6
+Host Overloading Detection Based on EWMA Algorithm in Cloud Computing Environment,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,8
+Boosting energy efficiency and quality of service through orchestration tools,Yes,Yes,No,No,Yes,Yes,Yes,Partially,Partially,No,6
+A Feasibility Study on Sustainability-Driven Infrastructure Management in Cloud Data Centers,Yes,Partially,Yes,Yes,Yes,Yes,No,No,No,Yes,6.5
+Dynamic Tuning for Parameter-Based Virtual Machine Placement,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,No,8.5
+A Novel Green Service Level Agreement for Cloud Computing using Fuzzy Logic,Yes,Yes,Yes,No,No,Yes,Partially,Partially,Partially,No,5.5
+Dynamie management of data center resources using reinforcement learning,Yes,Yes,Partially,Yes,Yes,Yes,No,No,No,No,5.5
+Research on virtual machine migration algorithm for cloud data center,Yes,Partially,Yes,No,Yes,Yes,No,Yes,Yes,Yes,7.5
+Optimizing power consumption in cloud computing based on optimization and predictive analysis,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,8
+A QoS-Guaranteed Energy-Efficient VM Dynamic Migration Strategy in Cloud Data Centers,Yes,Partially,Yes,Yes,Yes,Yes,Partially,Partially,Partially,Yes,8
+An Energy Aware Policy for Mapping and Migrating Virtual Machines in Cloud Environment Using Migration Factor,Yes,Partially,Yes,Yes,Yes,Yes,No,Partially,Partially,No,6.5
+Consolidating VMs in Green Cloud Computing Using Harmony Search Algorithm,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,10
+Migration and Cooling Aware Approach for Virtual Machine Spreading in Data Centers,Yes,Yes,No,Yes,Yes,Yes,Yes,Partially,Yes,Yes,8.5
+Threshold Scheme Approach to Balance Virtual Machines Load in Private Cloud,Yes,Partially,Yes,Yes,Yes,Yes,No,No,No,Yes,6.5
+Energy-efficient algorithm for load balancing and VMs reassignment in data centers,Yes,No,Yes,Yes,Yes,Yes,Yes,Partially,Partially,Yes,8
+Energy proportionality in near-threshold computing servers and cloud data centers: Consolidating or Not?,Yes,No,No,Yes,Yes,Yes,Yes,No,No,Partially,5.5
+CoolCloudSim: Integrating cooling system models in CloudSim,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,9
+Priority-aware Virtual Machine selection algorithm in dynamic consolidation,Yes,Partially,Yes,Yes,Yes,Partially,Yes,Partially,Partially,Yes,8
+QoS-aware VM placement and migration for hybrid cloud infrastructure,Yes,Yes,Partially,Yes,Yes,Yes,Yes,Yes,Yes,Yes,9.5
+Power and resource-aware virtual machine placement for IaaS cloud,Yes,Yes,Yes,No,Yes,Yes,Partially,Partially,Partially,Partially,7
+Optimizing the Energy Efficient VM Consolidation by a Multi-Objective Algorithm,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,8
+Sharing with live migration energy optimization scheduler for cloud computing data centers,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,7
+Adaptive selection of dynamic VM consolidation algorithm using neural network for cloud resource management,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,8
+Multi-objective Energy Efficient Resource Allocation Using Virus Colony Search (VCS) Algorithm,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,8
+Energy-Aware Dynamic Virtual Machine Consolidation for Cloud Datacenters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+Minimizing SLA violation and power consumption in Cloud data centers using adaptive energy-aware algorithms,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+"Data analytics for energy-efficient clouds: design, implementation and evaluation",Yes,Yes,Yes,No,No,Yes,Yes,Yes,Partially,No,6.5
+A learning automata-based algorithm for energy and SLA efficient consolidation of virtual machines in cloud data centers,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+Enhanced cuckoo search algorithm for virtual machine placement in cloud data centres,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,No,Yes,8.5
+NAM: a nearest acquaintance modeling approach for VM allocation using R-Tree,Yes,Yes,No,No,Yes,Yes,No,Partially,Partially,Yes,6
+Energy-aware adaptive four thresholds technique for optimal virtual machine placement,Yes,Yes,Yes,Yes,Yes,Yes,No,Partially,Partially,Yes,8
+Enhancing Energy-Efficient and QoS Dynamic Virtual Machine Consolidation Method in Cloud Environment,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+Virtual Machine Consolidation with Multiple Usage Prediction for Energy-Efficient Cloud Data Centers,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+Resource-utilization-aware energy efficient server consolidation algorithm for green computing in IIOT,Yes,Partially,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9
+Priority-Aware VM Allocation and Network Bandwidth Provisioning in Software-Defined Networking (SDN)-Enabled Clouds,Yes,Partially,No,No,Yes,Partially,Yes,No,Partially,Yes,5.5
+Holistic Virtual Machine Scheduling in Cloud Datacenters towards Minimizing Total Energy,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Partially,Yes,9
+Energy Efficient Quality of Service Aware Virtual Machine Migration in Cloud Computing,Yes,Yes,Partially,Yes,Yes,Yes,No,Partially,Partially,Yes,7.5
+Quantum virtual machine: power and performance management in virtualized web servers clusters,Yes,Yes,Yes,No,Yes,Yes,Partially,Yes,Yes,Partially,8
+Energy-performance optimisation for the dynamic consolidation of virtual machines in cloud computing,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Partially,Yes,9
+CompVM: A Complementary VM Allocation Mechanism for Cloud Systems,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,9
+SLA-Aware and Energy-Efficient VM Consolidation in Cloud Data Centers Using Robust Linear Regression Prediction Model,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+QoS Aware Energy Efficient VM Consolidation Techniques for a Virtualized Data Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+Adaptive Energy-Aware Algorithms for Minimizing Energy Consumption and SLA Violation in Cloud Computing,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Partially,Yes,9
+Enabling green computing in cloud environments: Network virtualization approach toward 5G support,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+Energy-efficient virtual machine selection based on resource ranking and utilization factor approach in cloud computing for IoT,Yes,Partially,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,8.5
+Efficient allocation of VMs in servers of data center to reduce energy consumption,Yes,No,Yes,Yes,Yes,No,No,Partially,Partially,Yes,6
+A Novel Self-Adaptive VM Consolidation Strategy Using Dynamic Multi-Thresholds in IaaS Clouds,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,9
+Energy efficient resource selection and allocation strategy for virtual machine consolidation in cloud datacenters,Yes,Yes,Partially,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9
+A stochastic process-based server consolidation approach for dynamic workloads in cloud data centers,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Partially,Yes,9
+A Dynamic Virtual Machine Placement and Migration Scheme For Data Centers,Yes,No,No,No,Yes,Yes,No,Partially,Yes,Yes,5.5
+An adaptive heuristic for managing energy consumption and overloaded hosts in a cloud data center,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Partially,Yes,9
+Self-adaptive resource allocation for energy-aware virtual machine placement in dynamic computing cloud,Yes,No,No,No,Yes,Yes,Yes,Partially,Partially,Yes,6
+New six-phase on-line resource management process for energy and SLA efficient consolidation in cloud data centers,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Partially,9
+"Hierarchical, Portfolio Theory-Based Virtual Machine Consolidation in a Compute Cloud",Yes,Yes,Yes,No,Yes,Yes,Yes,No,Partially,Yes,7.5
+ENERGY AWARE RESOURCE ALLOCATION FOR CLOUDS USING TWO LEVEL ANT COLONY OPTIMIZATION,Yes,Partially,Yes,No,Yes,Yes,Partially,Yes,Yes,Yes,8
+Robust optimization for energy-efficient virtual machine consolidation in modern datacenters,Yes,Yes,No,No,Yes,Yes,Partially,Partially,Partially,No,5.5
+An energy-efficient VM placement method for cloud data centers using a hybrid genetic algorithm,Yes,Partially,Partially,No,Yes,Yes,Yes,Partially,Partially,Yes,7
+An adaptive overload threshold selection process using Markov decision processes of virtual machine in cloud data center,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,10
+Energy and service level agreement aware resource allocation heuristics for cloud data centers,Yes,Yes,Partially,No,Partially,Yes,No,Partially,Partially,Yes,6
+EEDVMI: Energy-Efficient Dynamic Virtual Machines Integration,Yes,Yes,Yes,No,No,Yes,No,Yes,Partially,Partially,6
+A Joint Power Efficient Server and Network Consolidation approach for virtualized data centers,Yes,No,No,Yes,Yes,Yes,Partially,Yes,Yes,Partially,7
+EQUAL: ENERGY AND QOS AWARE RESOURCE ALLOCATION APPROACH FOR CLOUDS,Yes,Partially,Partially,Partially,Yes,Yes,Partially,Yes,Partially,Partially,7
+Toward a hierarchical and architecture‐based virtual machine allocation in cloud data centers,Yes,Yes,Yes,Yes,Yes,Partially,Partially,Partially,Partially,Partially,7.5
+A Lion-Whale optimization-based migration of virtual machines for data centers in cloud computing,Yes,No,No,No,Yes,Yes,No,Partially,Partially,Yes,5
+Energy-aware resource utilization based on particle swarm optimization and artificial bee colony algorithms in cloud computing,Yes,Yes,Partially,No,Yes,Yes,Yes,Partially,Partially,Partially,7
+Energy-aware and multi-resource overload probability constraint-based virtual machine dynamic consolidation method,Yes,Partially,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,9.5
+An energy efficient and SLA compliant approach for resource allocation and consolidation in cloud computing environments,Yes,Yes,No,No,Yes,Yes,Partially,Yes,Yes,Yes,7.5
+Markov Prediction Model for Host Load Detection and VM Placement in Live Migration,Partially,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,9.5
+Power-network aware VM migration heuristics for multi-tier web applications,Yes,Yes,Partially,Yes,Yes,Yes,Yes,Partially,Yes,No,8
+A reliable energy-aware approach for dynamic virtual machine consolidation in cloud data centers,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+Energy-Efficient and SLA-Aware Virtual Machine Selection Algorithm for Dynamic Resource Allocation in Cloud Data Centers,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Partially,Yes,9.5
+An Energy‐Efficient Dynamic Resource Management Approach Based on Clustering and Meta‐Heuristic Algorithms in Cloud Computing IaaS Platforms,Yes,No,Yes,Yes,Yes,Yes,No,Partially,Partially,Yes,7
+Multi-Objective Energy Efficient Virtual Machines Allocation at the Cloud Data Center,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,No,6
+Energy-aware VM Consolidation in Cloud Data Centers Using Utilization Prediction Model,Yes,Partially,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,9.5
+Integrating Heuristic and Machine-Learning Methods for Efficient Virtual Machine Allocation in Data Centers,Yes,Partially,No,No,Partially,Yes,Partially,Yes,Partially,Yes,6
+A learning-based approach for virtual machine placement in cloud data centers,Yes,No,Yes,Yes,Yes,No,Partially,Partially,Yes,Yes,7
