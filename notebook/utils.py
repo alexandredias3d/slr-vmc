@@ -1,4 +1,5 @@
 import json
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import re
@@ -121,7 +122,8 @@ class DataExtraction(Table):
     def get_scenario(self):
         return self.data[[DataExtraction.SCENARIO_DATASET,
                           DataExtraction.SCENARIO_PMS,
-                          DataExtraction.SCENARIO_VMS]]
+                          DataExtraction.SCENARIO_VMS,
+                          DataExtraction.REFERENCE]]
     
     def get_contribution_and_reference(self):
         pmc = set(self.data[self.data[DataExtraction.CONTRIBUTION].str.contains('PMC')][DataExtraction.REFERENCE])
@@ -158,7 +160,10 @@ class Scenario:
     NA = 'N/A'
     
     INDEX = 'index'
-    OCCURRENCES = "Number of Occurrences"
+    OCCURRENCES = 'Number of Occurrences'
+    HETEROGENEITY = 'Heterogeneity'
+    HETEROGENEOUS = 'Heterogeneous'
+    HOMOGENEOUS = 'Homogeneous'
         
 @dataclass(frozen=True)
 class PMScenario(Scenario):
@@ -260,6 +265,22 @@ def count_occurrences_in_bins(scenario_series, scenario, attribute, step, remove
     
     return df
 
+def count_heterogeneity_occurrences(scenario_df, scenario):
+    types = pd.Series(scenario_df[scenario]).value_counts()
+    
+    index = types.index
+    
+    homogeneous = types[index == 1].sum()
+    heterogeneous = types[index >= 2].sum()
+    not_available = types[index == -1].sum()
+
+    heterogeneity = {
+        Scenario.HETEROGENEITY: [Scenario.HOMOGENEOUS, Scenario.HETEROGENEOUS, Scenario.NA],
+        Scenario.OCCURRENCES: [homogeneous, heterogeneous, not_available],
+    }
+    
+    return pd.DataFrame.from_dict(heterogeneity)
+    
 
 def plot_horizontal_bar_chart(data, x, y, xlim, total, filename, xlabel='', ylabel='', remove_decimals=False, offset=1):
     sns.set_style('dark')
@@ -294,3 +315,71 @@ def format_string(string, n=3):
     string = re.sub(rf'((\d+,\s*){{{n}}})', r'\g<1>\n', string)
     
     return string
+
+def convert_types_to_heterogeneity(value):
+    if value == 1:
+        return Scenario.HOMOGENEOUS
+    else:
+        if value > 1:
+            return Scenario.HETEROGENEOUS
+        else: 
+            return Scenario.NA
+        
+def get_papers_per_heterogeneity(df, heterogeneity):
+    count = df[df[Scenario.HETEROGENEITY] == heterogeneity][DataExtraction.REFERENCE].sort_values()
+    return ', '.join(count.astype(str).values)
+
+def get_title_map():
+    bibtex = read_bibtex()
+    pattern = re.compile(r'@\w+\{(\w+\d+\w+),[\s\S]*?\btitle\s*=\s*\{(.*)\},')
+    title_map = {paper.lower(): key for key, paper in re.findall(pattern, bibtex)}
+    
+    return title_map
+
+def plot_heterogeneity_pie_chart(scenario, references, scenario_type, filename, fontsize=15, figsize=(6, 6)):
+    sns.set_style('dark')
+
+    heterogeneity_per_paper = pd.DataFrame.from_dict({
+        DataExtraction.REFERENCE: references,
+        Scenario.HETEROGENEITY: scenario[scenario_type],
+    })
+
+    heterogeneity_per_paper[Scenario.HETEROGENEITY] = heterogeneity_per_paper[Scenario.HETEROGENEITY].apply(convert_types_to_heterogeneity)
+
+    heterogeneity = count_heterogeneity_occurrences(scenario, scenario_type)
+    heterogeneity = heterogeneity.set_index(Scenario.HETEROGENEITY)
+    plot = heterogeneity.plot.pie(y=Scenario.OCCURRENCES, autopct="%.2f%%", figsize=figsize)
+
+    plot.get_legend().remove()
+    plot.set_ylabel('')
+
+    for child in plot.get_children():
+        if isinstance(child, plt.Text):
+            text = child.get_text()
+            position = child.get_position()
+
+            new_position = (1.0 if position[0] > 0 else -1.0, 0 if position[1] > 0 else -0.55)
+  
+            format_child = False
+
+            papers = papers = get_papers_per_heterogeneity(heterogeneity_per_paper, text)
+            if text == Scenario.HETEROGENEOUS:
+                text = f'{text}\n{format_string(papers, n=4)}'
+                format_child = True
+            elif text == Scenario.HOMOGENEOUS:
+                text = f'{text}\n{format_string(papers, n=3)}'
+                new_position = (1.0 if position[0] > 0 else -1.15, position[1]) 
+                format_child = True
+            elif text == Scenario.NA:
+                text = f'{text}\n{format_string(papers, n=4)}'
+                format_child = True
+
+            child.set_text(text)
+            child.set_fontsize(fontsize)
+            
+            if format_child:
+                child.set_position(new_position)
+            else:
+                print(child.get_text(), child.get_position())
+
+    plot.get_figure().savefig(f'{OUTPUT_PATH}/{filename}', bbox_inches='tight')
