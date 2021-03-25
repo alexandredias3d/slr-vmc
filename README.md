@@ -30,8 +30,8 @@ The results can be seen either by the Jupyter Notebooks inside the ```notebook``
 -	[Research Question 2](https://github.com/alexandredias3d/slr-vmc/blob/master/notebook/ResearchQuestion2.ipynb): shows methods, criteria and the amount of VMs selected during the Virtual Machine Selection (VMS).
 -	[Research Question 3](https://github.com/alexandredias3d/slr-vmc/blob/master/notebook/ResearchQuestion3.ipynb): shows methods and criteria used during the Virtual Machine Placement (VMP).
 -	[Research Question 4](https://github.com/alexandredias3d/slr-vmc/blob/master/notebook/ResearchQuestion4.ipynb): provides insights about the type of experiment performed (analytical, simulation, real) and the platform.
--	[Research Question 5](https://github.com/alexandredias3d/slr-vmc/blob/master/notebook/ResearchQuestion1.ipynb): depicts the scenarios used to evaluate the VMC solutions such as the trace used, PM and VM configurations.
--	[Research Question 6](https://github.com/alexandredias3d/slr-vmc/blob/master/notebook/ResearchQuestion1.ipynb): shows the metrics used to assess the VMC solutions.
+-	[Research Question 5](https://github.com/alexandredias3d/slr-vmc/blob/master/notebook/ResearchQuestion5.ipynb): depicts the scenarios used to evaluate the VMC solutions such as the trace used, PM and VM configurations.
+-	[Research Question 6](https://github.com/alexandredias3d/slr-vmc/blob/master/notebook/ResearchQuestion6.ipynb): shows the metrics used to assess the VMC solutions.
 
 
 ### How to reproduce
