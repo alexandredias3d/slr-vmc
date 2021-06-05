@@ -42,6 +42,14 @@ class Abbreviations:
         'Not Available': 'NA',
         'Migration Cost': 'MiC',
     }
+    
+    METRICS = {
+        'Energy Consumption': 'EC',
+        'Number of VM Migrations' : 'NVMM',
+        'SLA Violation (SLAV)': 'SLAV',                       
+        'SLA Violation Time per Active Host (SLATAH)': 'SLATAH',    
+        'Performance Degradation due to Migration (PDM)': 'PDM',                   
+    }
 
 class Table:
     
@@ -84,16 +92,20 @@ class DataExtraction(Table):
     
     REFERENCE = 'reference_number'
     
-    METRICS = 'metrics'
+    METRICS = 'used_metrics'
+    IMPROVED_METRICS = 'improved_metrics'
    
     def __init__(self):
         super().__init__(DataExtraction.PATH)
         
-    def get_paper_title_and_techniques(self):
+    def get_paper_synthesis_information(self):
         return self.data[[DataExtraction.PAPER_NAME,
+                          DataExtraction.REFERENCE,
                           DataExtraction.PMC_TECHNIQUE,
                           DataExtraction.VMS_TECHNIQUE,
-                          DataExtraction.VMP_TECHNIQUE]]
+                          DataExtraction.VMP_TECHNIQUE,
+                          DataExtraction.METRICS,
+                          DataExtraction.IMPROVED_METRICS]]
         
         
     def get_keywords(self):
@@ -379,7 +391,5 @@ def plot_heterogeneity_pie_chart(scenario, references, scenario_type, filename, 
             
             if format_child:
                 child.set_position(new_position)
-            else:
-                print(child.get_text(), child.get_position())
 
     plot.get_figure().savefig(f'{OUTPUT_PATH}/{filename}', bbox_inches='tight')

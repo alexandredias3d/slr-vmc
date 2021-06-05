@@ -1,87 +1,78 @@
 
+\newcommand{\tbf}[1]{\textbf{#1}}
 \begin{table}[htb!]
-	\footnotesize
-	\caption{}
-	\begin{tabular}{@{}llll@{}}
+	\tiny
+	\caption{Techniques for each stage of the VM consolidation process and performance evaluation metrics}
+	\begin{tabular}{@{}lllll@{}}
 		\toprule
-		Reference                       & PMC                       & VMS                                 & VMP                                   \\
+		Paper                           & PMC                       & VMS                                 & VMP                                 & Metrics                                 \\
 		\midrule
-		\cite{tarahomi2019prediction}   & ST + P (LR + WMA)         & MMT + MC + MRR + MDM                & H (HPNBFD) + P (EPA)                  \\
-		\cite{alsadie2018dtfa}          & DT + P (ARIMA)            & NA                                  & NA                                    \\
-		\cite{zhou2018virtual}          & ST + P (AR)               & UR                                  & R                                     \\
-		\cite{daraghmeh2018linear}      & ST + P (LinLogR)          & MC + MMT + MU + RS                  & H (PABFD)                             \\
-		\cite{aryania2018energy}        & NA                        & NA                                  & MH (ACS)                              \\
-		\cite{wang2018resource}         & ST                        & MC + BMH                            & H (UPCBFD)                            \\
-		\cite{lu2018host}               & P (EWMA)                  & NA                                  & NA                                    \\
-		\cite{roque2018feasibility}     & ST + DT                   & RS                                  & H (PUEBFD)                            \\
-		\cite{mosa2018dynamic}          & ST                        & MMT                                 & H (PMBFD)                             \\
-		\cite{liu2017research}          & DT                        & NA                                  & H (MD)                                \\
-		\cite{bui2018optimizing}        & P (GPR)                   & NA                                  & E (CO)                                \\
-		\cite{cao2018qos}               & DT                        & MVD                                 & H (QRDABFD + ECABFD)                  \\
-		\cite{bajoria2018energy}        & C (kM)                    & MF                                  & H (CBS)                               \\
-		\cite{fathi2018consolidating}   & P (LR)                    & MC + MMT + MU + RS                  & MH (HSA)                              \\
-		\cite{mandora2018migration}     & NA                        & CC + MiC                            & H (MGC)                               \\
-		\cite{arif2018threshold}        & ST                        & HS                                  & H (MFFD)                              \\
-		\cite{djennane2018energy}       & ST+ P (LRR)               & MMT                                 & H (bM)                                \\
-		\cite{cristian2018coolcloudsim} & DT + P (LR + LRR)         & MMT + MC                            & H (MSBFD + MWFD + FFDDHAM + TASBFD)   \\
-		\cite{nadeem2018priority}       & ST + P (LRR)              & PaMMT                               & H (PABFD)                             \\
-		\cite{nazir2018qos}             & ST                        & QoSC                                & H (QoSABFD)                           \\
-		\cite{gupta2018power}           & ST                        & NA                                  & H (BFD)                               \\
-		\cite{jayasena2018optimizing}   & NA                        & NA                                  & MH (MOSCA)                            \\
-		\cite{alshathri2018sharing}     & ST                        & NA                                  & H (SLM)                               \\
-		\cite{witanto2018adaptive}      & ST + P (LR)               & MMT                                 & H (BFD) + H (ACFFD)                   \\
-		\cite{jayasena2018multi}        & NA                        & NA                                  & MH (VCS)                              \\
-		\cite{wang2018energy}           & ST + DT + P (LR + LRR)    & HS                                  & H (SABFD)                             \\
-		\cite{zhou2018minimizing}       & DT                        & MRCU + MPCU                         & H (MEEBFD)                            \\
-		\cite{altomare2019data}         & ST + P (J48 + JRip + RF)  & NA                                  & NA                                    \\
-		\cite{ranjbari2018learning}     & ST + P (LA)               & MMT                                 & H (PABFD)                             \\
-		\cite{barlaskar2018enhanced}    & ST + DT + P (LR + LRR)    & MC + MMT + MU + RS                  & MH (ECS)                              \\
-		\cite{mohazabiyeh2018energy}    & DT                        & MMT + MC                            & H (PABFD)                             \\
-		\cite{liu2018enhancing}         & DT + P (ARIMA)            & LoCC                                & H (DRBFD)                             \\
-		\cite{nguyen2017virtual}        & ST + P (LR)               & MRT                                 & H (PABFD + MUP) + P (LR)              \\
-		\cite{han2018resource}          & ST + P (LR)               & MMT                                 & H (PABFD)                             \\
-		\cite{li2018holistic}           & DT                        & MCU                                 & H (BFD)                               \\
-		\cite{sharma2018energy}         & ST                        & MMC                                 & H (FFD)                               \\
-		\cite{monteiro2019quantum}      & ST                        & NA                                  & E (MILP) + H (QVM)                    \\
-		\cite{li2018energycloud}        & DT                        & MMT                                 & H (GCD)                               \\
-		\cite{shen2018compvm}           & NA                        & CompVM                              & H (FF)                                \\
-		\cite{li2019sla}                & DT + P (RSLinR)           & MMT                                 & H (RPABFD) + P (RSLR)                 \\
-		\cite{tarafdar2018qos}          & ST + P (MkC)              & DAPBM                               & H (MBFD)                              \\
-		\cite{yadav2018adaptivesla}     & DT                        & Bw                                  & H (MBFD)                              \\
-		\cite{verma2018enabling}        & ST + DT                   & MeMT + SVD + MFT                    & H (BFD)                               \\
-		\cite{mekala2019energy}         & DT                        & CRB + PEC                           & H (SUM)                               \\
-		\cite{xie2018novel}             & DT                        & MM                                  & H (BF)                                \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-\begin{table}[htb!]
-	\footnotesize
-	\caption{}
-	\begin{tabular}{@{}llll@{}}
-		\toprule
-		Reference                       & PMC                       & VMS                                 & VMP                                   \\
-		\midrule
-		\cite{chang2018energy}          & ST                        & MSR                                 & H (RACBFD)                            \\
-		\cite{naeen2018stochastic}      & ST + DT + P (SVR)         & MMT                                 & H (SPBFD)                             \\
-		\cite{yadav2018adaptive}        & DT + P (LmsReg)           & MuP                                 & H (MBFD)                              \\
-		\cite{arianyan2018new}          & P (WMA)                   & MMT                                 & MCDM (TOPSIS)                         \\
-		\cite{hwang2018hierarchical}    & ST                        & NA                                  & H (ARDFFD + MNVDBFD)                  \\
-		\cite{kumar2018energy}          & ST                        & NA                                  & MH (ACO)                              \\
-		\cite{kaaouache2018energy}      & ST                        & NA                                  & MH (GA) + H (BFD)                     \\
-		\cite{li2019adaptive}           & DT                        & MMT                                 & H (PABFD)                             \\
-		\cite{marotta2018joint}         & NA                        & NA                                  & MH (SA)                               \\
-		\cite{kumar2018equal}           & ST + DT                   & NA                                  & MH (ALO)                              \\
-		\cite{rahmanian2018toward}      & P                         & MMT + DTHMF + MM                    & H (PABFD + UMC) + MCDM (TOPSIS)       \\
-		\cite{meshkati2019energy}       & ST                        & NA                                  & MH (ABC + PSO)                        \\
-		\cite{li2018energy}             & P                         & MMT                                 & MH (ABC)                              \\
-		\cite{malekloo2018energy}       & NA                        & NA                                  & MH (ACO)                              \\
-		\cite{melhem2018markov}         & ST + P (MkC)              & MC + MMT + MaxU + RS                & H (MkPABFD)                           \\
-		\cite{borhani2019power}         & ST + DT                   & PNG                                 & H (MBFD)                              \\
-		\cite{sayadnavard2019reliable}  & ST + P (LR + MC)          & RCUWRUW                             & P (CTMkC)                             \\
-		\cite{moghaddam2018energy}      & P (LR)                    & PCC + CUPH                          & H (PABFD)                             \\
-		\cite{haghighi2019energy}       & DT                        & MMT + RS                            & MH (µGA)                              \\
-		\cite{farahnakian2016energy}    & ST                        & MMT + MaxL + MinL                   & P (LR + KNN)                          \\
-		\cite{ghobaei2018learning}      & ST + DT + P (LR + WMA)    & MMT + MC + MRR + MDM                & H (MBFD) + P (EPA + LA)               \\
+		\cite{alsadie2018dtfa}          & DT + P (ARIMA)            & NA                                  & NA                                  & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{alshathri2018sharing}     & ST                        & NA                                  & H (SLM)                             & \tbf{EC}                                        \\
+		\cite{altomare2019data}         & ST + P (J48 + JRip + RF)  & NA                                  & NA                                  & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{arianyan2018new}          & P (WMA)                   & MMT                                 & MCDM (TOPSIS)                       & \tbf{NVMM}, EC, PDM, SLATAH, SLAV               \\
+		\cite{arif2018threshold}        & ST                        & HS                                  & H (MFFD)                            & \tbf{EC}                                        \\
+		\cite{aryania2018energy}        & NA                        & NA                                  & MH (ACS)                            & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{bajoria2018energy}        & C (kM)                    & MF                                  & H (CBS)                             & \tbf{EC}                                        \\
+		\cite{barlaskar2018enhanced}    & ST + DT + P (LR + LRR)    & MC + MMT + MU + RS                  & MH (ECS)                            & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{borhani2019power}         & ST + DT                   & PNG                                 & H (MBFD)                            & \tbf{EC}, SLATAH                                \\
+		\cite{bui2018optimizing}        & P (GPR)                   & NA                                  & E (CO)                              & \tbf{EC}                                        \\
+		\cite{cao2018qos}               & DT                        & MVD                                 & H (QRDABFD + ECABFD)                & \tbf{EC}                                        \\
+		\cite{chang2018energy}          & ST                        & MSR                                 & H (RACBFD)                          & \tbf{EC}, \tbf{NVMM}, PDM, SLATAH, SLAV         \\
+		\cite{cristian2018coolcloudsim} & DT + P (LR + LRR)         & MMT + MC                            & H (MSBFD + MWFD + FFDDHAM + TASBFD) & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{daraghmeh2018linear}      & ST + P (LinLogR)          & MC + MMT + MU + RS                  & H (PABFD)                           & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{djennane2018energy}       & ST+ P (LRR)               & MMT                                 & H (bM)                              & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{farahnakian2016energy}    & ST                        & MMT + MaxL + MinL                   & P (LR + KNN)                        & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{fathi2018consolidating}   & P (LR)                    & MC + MMT + MU + RS                  & MH (HSA)                            & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{ghobaei2018learning}      & ST + DT + P (LR + WMA)    & MMT + MC + MRR + MDM                & H (MBFD) + P (EPA + LA)             & \tbf{EC}, \tbf{SLAV}, NVMM, PDM, SLATAH         \\
+		\cite{gupta2018power}           & ST                        & NA                                  & H (BFD)                             & \tbf{EC}, \tbf{NVMM}, PDM, SLAV                 \\
+		\cite{haghighi2019energy}       & DT                        & MMT + RS                            & MH (ÂµGA)                           & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{han2018resource}          & ST + P (LR)               & MMT                                 & H (PABFD)                           & \tbf{EC}, NVMM, PDM, SLATAH, SLAV               \\
+		\cite{hwang2018hierarchical}    & ST                        & NA                                  & H (ARDFFD + MNVDBFD)                & \tbf{NVMM}                                      \\
+		\cite{jayasena2018multi}        & NA                        & NA                                  & MH (VCS)                            & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{jayasena2018optimizing}   & NA                        & NA                                  & MH (MOSCA)                          & \tbf{EC}, \tbf{SLAV}, PDM, SLATAH               \\
+		\cite{kaaouache2018energy}      & ST                        & NA                                  & MH (GA) + H (BFD)                   & \tbf{EC}, NVMM, PDM, SLATAH, SLAV               \\
+		\cite{kumar2018energy}          & ST                        & NA                                  & MH (ACO)                            & \tbf{EC}, NVMM                                  \\
+		\cite{kumar2018equal}           & ST + DT                   & NA                                  & MH (ALO)                            & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{li2018energycloud}        & DT                        & MMT                                 & H (GCD)                             & \tbf{NVMM}, \tbf{SLAV}, EC, PDM, SLATAH         \\
+		\cite{li2019sla}                & DT + P (RSLinR)           & MMT                                 & H (RPABFD) + P (RSLR)               & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{li2018holistic}           & DT                        & MCU                                 & H (BFD)                             & \tbf{EC}                                        \\
+		\cite{li2019adaptive}           & DT                        & MMT                                 & H (PABFD)                           & \tbf{NVMM}, \tbf{SLAV}, EC, PDM, SLATAH         \\
+		\cite{li2018energy}             & P                         & MMT                                 & MH (ABC)                            & \tbf{EC}, \tbf{SLATAH}, \tbf{SLAV}, PDM         \\
+		\cite{liu2017research}          & DT                        & NA                                  & H (MD)                              & \tbf{EC}, \tbf{NVMM}, PDM, SLATAH, SLAV         \\
+		\cite{liu2018enhancing}         & DT + P (ARIMA)            & LoCC                                & H (DRBFD)                           & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{lu2018host}               & P (EWMA)                  & NA                                  & NA                                  & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLAV}, SLATAH   \\
+		\cite{malekloo2018energy}       & NA                        & NA                                  & MH (ACO)                            & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{mandora2018migration}     & NA                        & CC + MiC                            & H (MGC)                             & \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{marotta2018joint}         & NA                        & NA                                  & MH (SA)                             & \tbf{NVMM}, EC                                  \\
+		\cite{mekala2019energy}         & DT                        & CRB + PEC                           & H (SUM)                             & \tbf{EC}, \tbf{NVMM}, \tbf{SLATAH}, \tbf{SLAV}, PDM   \\
+		\cite{melhem2018markov}         & ST + P (MkC)              & MC + MMT + MaxU + RS                & H (MkPABFD)                         & \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}, EC   \\
+		\cite{meshkati2019energy}       & ST                        & NA                                  & MH (ABC + PSO)                      & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{moghaddam2018energy}      & P (LR)                    & PCC + CUPH                          & H (PABFD)                           & EC, NVMM, PDM, SLATAH, SLAV                     \\
+		\cite{mohazabiyeh2018energy}    & DT                        & MMT + MC                            & H (PABFD)                           & \tbf{EC}, \tbf{SLAV}, PDM, SLATAH               \\
+		\cite{monteiro2019quantum}      & ST                        & NA                                  & E (MILP) + H (QVM)                  & EC                                              \\
+		\cite{mosa2018dynamic}          & ST                        & MMT                                 & H (PMBFD)                           & EC, PDM, SLATAH, SLAV                           \\
+		\cite{nadeem2018priority}       & ST + P (LRR)              & PaMMT                               & H (PABFD)                           & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{naeen2018stochastic}      & ST + DT + P (SVR)         & MMT                                 & H (SPBFD)                           & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{nazir2018qos}             & ST                        & QoSC                                & H (QoSABFD)                         & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{nguyen2017virtual}        & ST + P (LR)               & MRT                                 & H (PABFD + MUP) + P (LR)            & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{rahmanian2018toward}      & P                         & MMT + DTHMF + MM                    & H (PABFD + UMC) + MCDM (TOPSIS)     & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{ranjbari2018learning}     & ST + P (LA)               & MMT                                 & H (PABFD)                           & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLAV}, SLATAH   \\
+		\cite{roque2018feasibility}     & ST + DT                   & RS                                  & H (PUEBFD)                          & \tbf{EC}, NVMM                                  \\
+		\cite{sayadnavard2019reliable}  & ST + P (LR + MC)          & RCUWRUW                             & P (CTMkC)                           & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{sharma2018energy}         & ST                        & MMC                                 & H (FFD)                             & \tbf{EC}                                        \\
+		\cite{shen2018compvm}           & NA                        & CompVM                              & H (FF)                              & \tbf{NVMM}                                      \\
+		\cite{tarafdar2018qos}          & ST + P (MkC)              & DAPBM                               & H (MBFD)                            & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{tarahomi2019prediction}   & ST + P (LR + WMA)         & MMT + MC + MRR + MDM                & H (HPNBFD) + P (EPA)                & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{verma2018enabling}        & ST + DT                   & MeMT + SVD + MFT                    & H (BFD)                             & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{wang2018energy}           & ST + DT + P (LR + LRR)    & HS                                  & H (SABFD)                           & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{wang2018resource}         & ST                        & MC + BMH                            & H (UPCBFD)                          & \tbf{EC}, \tbf{SLAV}, PDM, SLATAH               \\
+		\cite{witanto2018adaptive}      & ST + P (LR)               & MMT                                 & H (BFD) + H (ACFFD)                 & \tbf{EC}, \tbf{SLAV}, PDM, SLATAH               \\
+		\cite{xie2018novel}             & DT                        & MM                                  & H (BF)                              & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{yadav2018adaptivesla}     & DT                        & Bw                                  & H (MBFD)                            & \tbf{EC}, \tbf{NVMM}, \tbf{SLAV}, PDM, SLATAH   \\
+		\cite{yadav2018adaptive}        & DT + P (LmsReg)           & MuP                                 & H (MBFD)                            & \tbf{EC}, \tbf{NVMM}                            \\
+		\cite{zhou2018minimizing}       & DT                        & MRCU + MPCU                         & H (MEEBFD)                          & \tbf{EC}, \tbf{NVMM}, \tbf{PDM}, \tbf{SLATAH}, \tbf{SLAV}   \\
+		\cite{zhou2018virtual}          & ST + P (AR)               & UR                                  & R                                   & \tbf{EC}, \tbf{SLAV}, PDM, SLATAH               \\
 		\bottomrule
 	\end{tabular}
 \end{table}
