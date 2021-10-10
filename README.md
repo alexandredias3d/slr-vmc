@@ -2,10 +2,13 @@
 
 This repository contains all the input data and scripts used to create the tables and charts of the paper _"A Systematic Literature Review on Virtual Machine Consolidation"_. The goal of this repository is to provide to researchers a way to easily reproduce the results obtained in our paper. It also allows them to modify the scripts to provide new insights based on the same data.
 
+### Citation 
+If you are using any results or scripts from this repository in your research, please make sure to cite our paper:  
+Alexandre H. T. Dias, Luiz. H. A. Correia, and Neumar Malheiros. 2021. A Systematic Literature Review on Virtual Machine Consolidation. ACM Comput. Surv. 54, 8, Article 176 (November 2022), 38 pages. DOI:https://doi.org/10.1145/3470972.
+
 ### Paper abstract
 
-Virtual machine consolidation has been a widely explored topic in recent years due to Cloud Data Centers' effect on global energy consumption. Thus, academia and companies made efforts to achieve green computing, reducing energy consumption to minimize environmental impact. By consolidating Virtual Machines into a fewer number of Physical Machines, resource provisioning mechanisms can shutdown idle Physical Machines to reduce energy consumption and improve resource utilization. However, there is a trade-off between reducing energy consumption while assuring the Quality of Service established on the Service Level Agreement. This work introduces a Systematic Literature Review of one year of advances in virtual machine consolidation. It provides a discussion on methods used in each step of the virtual machine consolidation, a classification of papers according to their contribution, and a quantitative and qualitative analysis of datasets, scenarios, and metrics.
-
+Virtual machine consolidation has been a widely explored topic in recent years due to Cloud Data Centers' effect on global energy consumption. Thus, academia and companies made efforts to achieve green computing, reducing energy consumption to minimize environmental impact. By consolidating Virtual Machines into a fewer number of Physical Machines, resource provisioning mechanisms can shutdown idle Physical Machines to reduce energy consumption and improve resource utilization. However, there is a trade-off between reducing energy consumption while assuring the Quality of Service established on the Service Level Agreement. This work introduces a Systematic Literature Review of one year of advances in virtual machine consolidation. It provides a discussion on methods used in each step of the virtual machine consolidation, a classification of papers according to their contribution, and a quantitative and qualitative analysis of datasets, scenarios, and metrics
 
 ### Repository structure
 
